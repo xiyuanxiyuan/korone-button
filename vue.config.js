@@ -4,7 +4,7 @@ module.exports = {
     ],
 
     pwa: {
-      name: 'ぺこらボタン',
+      name: 'ころねボタン',
       msTileColor: '#728bf3',
       appleMobileWebAppCapable: 'yes',
       appleMobileWebAppStatusBarStyle: 'black',

@@ -11,18 +11,18 @@
       <v-app-bar-nav-icon v-on="menu" v-show="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
       </template>
       <v-list>
-          <v-list-item @click="See('https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ')">
+          <v-list-item @click="See('https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q?sub_confirmation=1')">
             <v-list-item-title>
-              <v-icon left color="red">mdi-youtube</v-icon>Pekora Ch. 兎田ぺこら
+              <v-icon left color="red">mdi-youtube</v-icon>Korone Ch. 戌神ころね
             </v-list-item-title>
           </v-list-item>
-          <v-list-item @click="See('https://twitter.com/usadapekora')">
+          <v-list-item @click="See('https://twitter.com/inugamikorone')">
             <v-list-item-title>
-              <v-icon left color="blue">mdi-twitter</v-icon>@usadapekora
+              <v-icon left color="blue">mdi-twitter</v-icon>@inugamikorone
             </v-list-item-title>
           </v-list-item>
           <v-divider></v-divider>
-          <v-list-item @click="See('https://github.com/Coceki/peko-button')">
+          <v-list-item @click="See('https://github.com/oruyanke/korone-button')">
             <v-list-item-title>
               <v-icon left color="black">mdi-github</v-icon>{{$t("ui.helpdevelope")}}
             </v-list-item-title>
@@ -30,10 +30,10 @@
         </v-list>
       </v-menu>
         <v-toolbar-title>{{$t("ui.title")}}</v-toolbar-title>
-          <v-btn v-if="$vuetify.breakpoint.mdAndUp" class="ml-4 text-capitalize" color="red" @click="See('https://www.youtube.com/channel/UC1DCedRgGHBdm81E1llLhOQ')"><v-icon left>mdi-youtube</v-icon>Pekora Ch. 兎田ぺこら</v-btn>
-          <v-btn v-if="$vuetify.breakpoint.mdAndUp" class="ml-4 text-lowercase" color="blue" @click="See('https://twitter.com/usadapekora')"><v-icon left>mdi-twitter</v-icon>@usadapekora</v-btn>
+          <v-btn v-if="$vuetify.breakpoint.mdAndUp" class="ml-4 text-capitalize" color="red" @click="See('https://www.youtube.com/channel/UChAnqc_AY5_I3Px5dig3X1Q?sub_confirmation=1')"><v-icon left>mdi-youtube</v-icon>Korone Ch. 戌神ころね</v-btn>
+          <v-btn v-if="$vuetify.breakpoint.mdAndUp" class="ml-4 text-lowercase" color="blue" @click="See('https://twitter.com/inugamikorone')"><v-icon left>mdi-twitter</v-icon>@inugamikorone</v-btn>
         <v-spacer></v-spacer>
-         <v-btn  v-if="$vuetify.breakpoint.mdAndUp" @click="See('https://github.com/Coceki/peko-button')"><v-icon left>mdi-github</v-icon>{{$t("ui.helpdevelope")}}</v-btn>
+         <v-btn  v-if="$vuetify.breakpoint.mdAndUp" @click="See('https://github.com/oruyanke/korone-button')"><v-icon left>mdi-github</v-icon>{{$t("ui.helpdevelope")}}</v-btn>
         <v-fab-transition>
             <v-btn v-on="on" fab icon @click="DarkMode()" >
               <v-icon>{{darkmodeicon}}</v-icon>
@@ -53,7 +53,7 @@
           </v-list-item>
         </v-list>
       </v-menu>
-      
+
       </v-app-bar>
 </template>
 
@@ -84,7 +84,7 @@ export default {
       get: function() {
         return this.$store.state.dark_icon;
       },
-      
+
       },
     night:{
       get: function() {
@@ -94,9 +94,9 @@ export default {
           return "primary"
         }
       },
-      
+
       },
-    
+
     }
 }
 </script>

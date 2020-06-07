@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    
+
       <v-menu id="volumeM" open-on-hover offset-x>
       <template v-slot:activator="{ on }">
       <v-btn
@@ -54,26 +54,15 @@
         <v-icon>mdi-reorder-horizontal</v-icon>
       </v-badge>
       </v-btn>
-      
+
     </v-fab-transition>
-    
+
     <!---标题--->
     <v-row class="mt-5" align="center" justify="center">
       <div class="text-center display-1 font-weight-bold">{{$t("ui.title")}}</div>
     </v-row>
     <v-row align="center" justify="center">
       <v-switch v-model="orderplaymode" inset color="secondary" :label="$t('ui.openorderplaymode')"></v-switch>
-      <v-badge
-        color="primary"
-        :content="this.$t('ui.beta')"
-        overlap
-        offset-x=40
-        offset-y=20
-      >
-      <!-- <router-link to="/pekolanguage" class="a"> -->
-      <v-btn disabled class="ma-2" raised color="secondary">{{$t("ui.pekolanguage")}}</v-btn>
-      <!-- </router-link> -->
-      </v-badge>
     </v-row>
     <!---帮助文本--->
     <v-row>
@@ -84,7 +73,6 @@
             {{$t("ui.info")}}
           </p>
           <p>{{$t("ui.betainfo")}}</p>
-          <v-btn class="ma-2 pa-1" raised color="secondary" @click="playSpecial()">Co↘ce↗ki↘お兄ちゃん</v-btn>
         </v-card>
       </v-col>
     </v-row>
@@ -149,8 +137,8 @@
           <v-btn text color="secondary" @click="stopplay">{{$t("ui.stopplay")}}</v-btn>
           <v-divider></v-divider>
           <v-btn text color="red" @click="resetorder">{{$t("ui.resetorder")}}</v-btn>
-        </v-card-actions> 
-        <p v-else>{{$t("ui.listempty")}}</p>     
+        </v-card-actions>
+        <p v-else>{{$t("ui.listempty")}}</p>
       </v-card>
       <v-card v-if="$i18n.locale=='ja'" class="pa-1">
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
@@ -161,8 +149,8 @@
           <v-btn text color="secondary" @click="stopplay">{{$t("ui.stopplay")}}</v-btn>
           <v-divider></v-divider>
           <v-btn text color="red" @click="resetorder">{{$t("ui.resetorder")}}</v-btn>
-        </v-card-actions> 
-        <p v-else>{{$t("ui.listempty")}}</p>     
+        </v-card-actions>
+        <p v-else>{{$t("ui.listempty")}}</p>
       </v-card>
     </v-dialog>
     <!--序列播放说明-->
@@ -204,7 +192,7 @@
 
 <script>
 import voicelist from "../assets/voices.json";
-var audio = new Audio(); 
+var audio = new Audio();
 var i = 0;
 export default {
   data: () => ({
@@ -241,17 +229,11 @@ export default {
       this.voice = item;
       audio.play();
     },
-    playSpecial(){
-      let audio = new Audio();
-      audio.src="voices/私货.mp3";
-      audio.preload = true;
-      audio.play();
-    },
     deletelist(i){//删除序列中的一个值
       this.orderlist.splice(i,1);
     },
     orderplay(){
-      
+
       i=0;
       audio = new Audio();
       let arry = this.orderlist;
@@ -261,14 +243,14 @@ export default {
       audio.src="voices/"+arry[i].path;
       audio.volume=this.volume/100;
       audio.play();
-      audio.addEventListener('ended', playEndedHandler, false); 
+      audio.addEventListener('ended', playEndedHandler, false);
       function playEndedHandler(){//序列播放实现
-        i++;   
+        i++;
         if(i < arry.length){
           audio.src = "voices/"+arry[i].path;
           //window.console.log(i);
           audio.play();
-          
+
         }else{
           if(repeat==true){//不要停不下来啊
             i=0;

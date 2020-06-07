@@ -36,9 +36,9 @@
           @click="toTop"
         >
           <v-icon>mdi-arrow-up</v-icon>
-          
+
         </v-btn>
-      
+
       </v-fab-transition>
       <router-view></router-view>
       </v-container>
@@ -50,7 +50,7 @@
                 <v-container>
                   <v-row align="end">
                     {{$t("ui.developer")}}
-                    <v-btn icon @click="See('https://github.com/Coceki/peko-button')"><v-icon>mdi-github</v-icon></v-btn>
+                    <v-btn icon @click="See('https://github.com/oruyanke/korone-button')"><v-icon>mdi-github</v-icon></v-btn>
                   </v-row>
                   <v-row>
                     {{$t("ui.cridits")}}
@@ -67,9 +67,9 @@
             </v-layout>
           </v-container>
         </v-footer>
-      
-    
-    
+
+
+
   </v-app>
 </template>
 
@@ -107,7 +107,7 @@ export default {
     window.addEventListener("scroll", this.handleScroll, true);
     if (this.$cookies.isKey("Lang")){
       this.$i18n.locale=this.$cookies.get("Lang");
-    
+
     }
   },
   methods: {
@@ -129,7 +129,7 @@ export default {
         }
         // 释放不再有用的deferredPrompt对象
       });
-      
+
     },
     handleScroll() {
       let scrolltop =
@@ -150,6 +150,6 @@ export default {
         window.location.href = e
       }
     }
-  
+
 };
 </script>
