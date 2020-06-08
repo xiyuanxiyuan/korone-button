@@ -1,58 +1,58 @@
 <template>
   <v-container>
 
-      <v-menu id="volumeM" open-on-hover offset-x>
+    <v-menu id="volumeM" open-on-hover offset-x>
       <template v-slot:activator="{ on }">
-      <v-btn
-        id="volumestyle"
-        color="secondary"
-        dark
-        fixed
-        bottom
-        left
-        fab
-        v-on="on"
-      >
-      <v-icon>mdi-volume-high</v-icon>
-      </v-btn>
+        <v-btn
+                id="volumestyle"
+                color="secondary"
+                dark
+                fixed
+                bottom
+                left
+                fab
+                v-on="on"
+        >
+          <v-icon>mdi-volume-high</v-icon>
+        </v-btn>
       </template>
       <v-card
-        min-height="100"
-        min-width="250"
-        flat
+              min-height="100"
+              min-width="250"
+              flat
       >
-      <v-slider
-        class="pl-5 pr-5 pt-8 mb-0"
-        v-model="volume"
-        :label="this.$t('ui.volume')"
-        thumb-label
-        max=100
-        min=0
-        dense
-        prepend-icon="mdi-volume-high"
-      ></v-slider>
+        <v-slider
+                class="pl-5 pr-5 pt-8 mb-0"
+                v-model="volume"
+                :label="this.$t('ui.volume')"
+                thumb-label
+                max=100
+                min=0
+                dense
+                prepend-icon="mdi-volume-high"
+        ></v-slider>
       </v-card>
     </v-menu>
     <v-fab-transition>
       <v-btn
-        class="mb-12 mr-12"
-        v-show="orderplaymode"
-        color="primary"
-        dark
-        fixed
-        bottom
-        right
-        fab
-        @click="orderdialog=true"
+              class="mb-12 mr-12"
+              v-show="orderplaymode"
+              color="primary"
+              dark
+              fixed
+              bottom
+              right
+              fab
+              @click="orderdialog=true"
       >
-      <v-badge
-        color="secondary"
-        :content="arrysize"
-        :value="arrysize"
-        overlap
+        <v-badge
+                color="secondary"
+                :content="arrysize"
+                :value="arrysize"
+                overlap
         >
-        <v-icon>mdi-reorder-horizontal</v-icon>
-      </v-badge>
+          <v-icon>mdi-reorder-horizontal</v-icon>
+        </v-badge>
       </v-btn>
 
     </v-fab-transition>
@@ -78,7 +78,7 @@
     </v-row>
     <v-row>
       <v-col cols="12" class="ma-0 pa-0">
-        <v-card class="ma-1 pa-4" >
+        <v-card class="ma-1 pa-4">
           <p class="headline font-weight-blod">
             <v-icon large color="primary">mdi-help-circle</v-icon>
             {{$t("ui.helptitle")}}
@@ -97,23 +97,25 @@
           <v-container>
             <v-row no-gutters v-if="$i18n.locale=='zhHans'">
               <v-btn
-                class="ma-2 pa-1"
-                v-for="voice in group.voicelist"
-                :key="voice.name"
-                raised
-                color="secondary"
-                @click="play(voice)"
-              >{{voice.translation.Chinese}}</v-btn>
+                      class="ma-2 pa-1"
+                      v-for="voice in group.voicelist"
+                      :key="voice.name"
+                      raised
+                      color="secondary"
+                      @click="play(voice)"
+              >{{voice.translation.Chinese}}
+              </v-btn>
             </v-row>
             <v-row no-gutters v-else-if="$i18n.locale=='ja'">
               <v-btn
-                class="ma-1 pa-1"
-                v-for="voice in group.voicelist"
-                :key="voice.name"
-                raised
-                color="secondary"
-                @click="play(voice)"
-              >{{voice.translation.Japanese}}</v-btn>
+                      class="ma-1 pa-1"
+                      v-for="voice in group.voicelist"
+                      :key="voice.name"
+                      raised
+                      color="secondary"
+                      @click="play(voice)"
+              >{{voice.translation.Japanese}}
+              </v-btn>
             </v-row>
           </v-container>
         </v-card>
@@ -130,8 +132,12 @@
       </v-toolbar>
       <v-card v-if="$i18n.locale=='zhHans'" class="pa-2">
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
-        <v-chip v-for="(selected,index) in orderlist" :key="selected" class="ma-2" close color="secondary" text-color="white" @click:close="deletelist(index)" @click="playOnly(selected)">{{selected.translation.Chinese}}</v-chip>
-        <v-switch class="ml-3 mt-2" v-model="repeatmode" inset color="secondary" :label="$t('ui.repeatmode')"></v-switch>
+        <v-chip v-for="(selected,index) in orderlist" :key="selected" class="ma-2" close color="secondary"
+                text-color="white" @click:close="deletelist(index)" @click="playOnly(selected)">
+          {{selected.translation.Chinese}}
+        </v-chip>
+        <v-switch class="ml-3 mt-2" v-model="repeatmode" inset color="secondary"
+                  :label="$t('ui.repeatmode')"></v-switch>
         <v-card-actions v-if="orderlist.length>0">
           <v-btn raised color="primary" @click="orderplay">{{$t("ui.playthislist")}}</v-btn>
           <v-btn text color="secondary" @click="stopplay">{{$t("ui.stopplay")}}</v-btn>
@@ -142,8 +148,12 @@
       </v-card>
       <v-card v-if="$i18n.locale=='ja'" class="pa-1">
         <p class="title font-weight-blod">{{$t("ui.orderlistnow")}}</p>
-        <v-chip v-for="(selected,index) in orderlist" :key="selected" class="ma-2" close color="secondary" text-color="white" @click:close="deletelist(index)" @click="playOnly(selected)">{{selected.translation.Japanese}}</v-chip>
-        <v-switch class="ml-3 mt-2" v-model="repeatmode" inset color="secondary" :label="$t('ui.repeatmode')"></v-switch>
+        <v-chip v-for="(selected,index) in orderlist" :key="selected" class="ma-2" close color="secondary"
+                text-color="white" @click:close="deletelist(index)" @click="playOnly(selected)">
+          {{selected.translation.Japanese}}
+        </v-chip>
+        <v-switch class="ml-3 mt-2" v-model="repeatmode" inset color="secondary"
+                  :label="$t('ui.repeatmode')"></v-switch>
         <v-card-actions v-if="orderlist.length>0">
           <v-btn raised color="primary" @click="orderplay">{{$t("ui.playthislist")}}</v-btn>
           <v-btn text color="secondary" @click="stopplay">{{$t("ui.stopplay")}}</v-btn>
@@ -162,133 +172,137 @@
       <v-card class="pa-5">
         <p class="title">{{$t("ui.tips1")}}</p>
         <v-img src="1.png" width=300>
-        <template v-slot:placeholder>
-                    <v-row class="fill-height ma-0" align="center" justify="center">
-                      <v-progress-circular indeterminate color="primary"></v-progress-circular>
-                    </v-row>
-        </template>
+          <template v-slot:placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular indeterminate color="primary"></v-progress-circular>
+            </v-row>
+          </template>
         </v-img>
         <p class="title">{{$t("ui.tips2")}}</p>
         <v-img src="2.png" width=300>
-        <template v-slot:placeholder>
-                    <v-row class="fill-height ma-0" align="center" justify="center">
-                      <v-progress-circular indeterminate color="primary"></v-progress-circular>
-                    </v-row>
-        </template>
+          <template v-slot:placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular indeterminate color="primary"></v-progress-circular>
+            </v-row>
+          </template>
         </v-img>
         <p class="title">{{$t("ui.tips3")}}</p>
         <v-img src="3.png" width=300>
-        <template v-slot:placeholder>
-                    <v-row class="fill-height ma-0" align="center" justify="center">
-                      <v-progress-circular indeterminate color="primary"></v-progress-circular>
-                    </v-row>
-        </template>
+          <template v-slot:placeholder>
+            <v-row class="fill-height ma-0" align="center" justify="center">
+              <v-progress-circular indeterminate color="primary"></v-progress-circular>
+            </v-row>
+          </template>
         </v-img>
       </v-card>
-        <v-btn raised color="primary" @click="helpdialog=false">{{$t("ui.gotit")}}</v-btn>
+      <v-btn raised color="primary" @click="helpdialog=false">{{$t("ui.gotit")}}</v-btn>
     </v-dialog>
   </v-container>
 </template>
 
 <script>
-import voicelist from "../assets/voices.json";
-var audio = new Audio();
-var i = 0;
-export default {
-  data: () => ({
-    voices: voicelist.groups,
-    orderplaymode: false,
-    orderdialog: false,
-    orderlist:[],
-    helpdialog:false,
-    repeatmode:false,
-    arrysize:0,
-    volume:100,
-  }),
-  created() {
-    //window.console.log(this.voices); //装载语音包path
-  },
-  methods: {
-    play(item) {
-      if (this.orderplaymode) {
-        //判断序列播放
-        this.orderlist.push(item);
-        //window.console.log(this.orderlist);
-      }
-      let audio = new Audio();
-      audio.preload = true;
-      audio.src="voices/"+item.path;
-      this.voice = item;
-      audio.volume=this.volume/100;
-      audio.play();
-    },
-    playOnly(item){
-      let audio = new Audio();
-      audio.src="voices/"+item.path;
-      audio.preload = true;
-      this.voice = item;
-      audio.play();
-    },
-    deletelist(i){//删除序列中的一个值
-      this.orderlist.splice(i,1);
-    },
-    orderplay(){
+    import voicelist from "../assets/voices.json";
 
-      i=0;
-      audio = new Audio();
-      let arry = this.orderlist;
-      let repeat = this.repeatmode;
-      audio.preload = true;
-      audio.loop = false;
-      audio.src="voices/"+arry[i].path;
-      audio.volume=this.volume/100;
-      audio.play();
-      audio.addEventListener('ended', playEndedHandler, false);
-      function playEndedHandler(){//序列播放实现
-        i++;
-        if(i < arry.length){
-          audio.src = "voices/"+arry[i].path;
-          //window.console.log(i);
-          audio.play();
+    var audio = new Audio();
+    var i = 0;
+    export default {
+        data: () => ({
+            voices: voicelist.groups,
+            orderplaymode: false,
+            orderdialog: false,
+            orderlist: [],
+            helpdialog: false,
+            repeatmode: false,
+            arrysize: 0,
+            volume: 100,
+        }),
+        created() {
+            //window.console.log(this.voices); //装载语音包path
+        },
+        methods: {
+            play(item) {
+                if (this.orderplaymode) {
+                    //判断序列播放
+                    this.orderlist.push(item);
+                    //window.console.log(this.orderlist);
+                }
+                let audio = new Audio();
+                audio.preload = true;
+                audio.src = "voices/" + item.path;
+                this.voice = item;
+                audio.volume = this.volume / 100;
+                audio.play();
+            },
+            playOnly(item) {
+                let audio = new Audio();
+                audio.src = "voices/" + item.path;
+                audio.preload = true;
+                this.voice = item;
+                audio.play();
+            },
+            deletelist(i) {//删除序列中的一个值
+                this.orderlist.splice(i, 1);
+            },
+            orderplay() {
 
-        }else{
-          if(repeat==true){//不要停不下来啊
-            i=0;
-            audio.src = "voices/"+arry[i].path;
-            audio.play();
-          }
-        }
-      }
-    },
-    resetorder(){
-      this.orderlist=[];
-    },
-    stopplay(){
-      audio.pause();
-      i=0;
-    }
-  },
-  watch:{
-    orderplaymode:function(){
-       if(this.orderplaymode){
-         this.helpdialog=true;
-       }
-    },
-    orderlist:function(){
-      this.arrysize=this.orderlist.length;
-    }
-  },
-};
+                i = 0;
+                audio = new Audio();
+                let arry = this.orderlist;
+                let repeat = this.repeatmode;
+                audio.preload = true;
+                audio.loop = false;
+                audio.src = "voices/" + arry[i].path;
+                audio.volume = this.volume / 100;
+                audio.play();
+                audio.addEventListener('ended', playEndedHandler, false);
+
+                function playEndedHandler() {//序列播放实现
+                    i++;
+                    if (i < arry.length) {
+                        audio.src = "voices/" + arry[i].path;
+                        //window.console.log(i);
+                        audio.play();
+
+                    } else {
+                        if (repeat == true) {//不要停不下来啊
+                            i = 0;
+                            audio.src = "voices/" + arry[i].path;
+                            audio.play();
+                        }
+                    }
+                }
+            },
+            resetorder() {
+                this.orderlist = [];
+            },
+            stopplay() {
+                audio.pause();
+                i = 0;
+            }
+        },
+        watch: {
+            orderplaymode: function () {
+                if (this.orderplaymode) {
+                    this.helpdialog = true;
+                }
+            },
+            orderlist: function () {
+                this.arrysize = this.orderlist.length;
+            }
+        },
+    };
 </script>
 
 <style>
-.a{
-  text-decoration: none;
-}
-#volumestyle{
-  z-index:201;
-}
-#volumeM{
-  z-index: 999;
-}
+  .a {
+    text-decoration: none;
+  }
+
+  #volumestyle {
+    z-index: 201;
+  }
+
+  #volumeM {
+    z-index: 999;
+  }
 </style>
