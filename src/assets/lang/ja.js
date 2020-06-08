@@ -28,10 +28,6 @@
         entersomewords: "音声を生成するテキストを入力してください（注意：文字はあまり長くしないでください）",
         generate: "生成する",
         helpdevelope: "このウェブサイトの改善にご協力ください",
-        volume: "ボリューム",
-        addtohomescreen: "ホーム画面にころねボタンを追加する",
-        add: "追加",
-        dontneed: "必要ない",
-        addtohomescreeninfo: "このウェブサイトはPWAをサポートしています。オフラインでもホーム画面に追加すると、通常のアプリとしてアクセスできます"
+        volume: "ボリューム"
     }
 }

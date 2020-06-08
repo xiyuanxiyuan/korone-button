@@ -89,7 +89,7 @@
       </v-col>
     </v-row>
     <!---展示按钮--->
-    <v-row v-for="group in voices" :key="group">
+    <v-row v-for="group in voices" :key="group.name">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">
           <v-card-title v-if="$i18n.locale=='zhHans'">{{group.translation.Chinese}}</v-card-title>

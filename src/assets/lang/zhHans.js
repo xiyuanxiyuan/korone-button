@@ -16,7 +16,7 @@ module.exports = {
         orderplaymodehelp: "序列播放食用方法",
         developerinfo: "本站为爱好者创作，与Hololive官方无关",
         repeatmode: "不要停下来啊（循环序列）",
-        betainfo: "更新日志：2020.5.8 支持PWA，夜晚会自动切换成黑色调，日语版已实装，点击右上角小地球切换，作者日语N114514，有的地方真的听不出了，有错误请在Github指出，谢谢大家支持",
+        betainfo: "更新日志：2020.6.8 狗按钮的第一个版本上线啦！",
         info: "恭喜戌神沁音40万订阅达成！",
         developer: "作者：Coceki & 离子",
         cridits: "特别感谢：戌神沁音的手指面包店 & 狐按钮",
@@ -28,10 +28,6 @@ module.exports = {
         entersomewords: "请输入要生成的文字（性能不好别输太多，会卡）",
         generate: "生成",
         helpdevelope: "帮助完善网页",
-        volume: "音量",
-        addtohomescreen: "把狗按钮添加到主屏幕",
-        add: "添加",
-        dontneed: "不需要",
-        addtohomescreeninfo: "本站支持PWA，添加到主屏幕就可以像普通APP一样，即使没有网络也可以使用！"
+        volume: "音量"
     }
 }
