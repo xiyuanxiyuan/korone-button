@@ -97,24 +97,26 @@
           <v-container>
             <v-row no-gutters v-if="$i18n.locale=='zhHans'">
               <v-btn
-                      class="ma-2 pa-1"
+                      class="ma-2 pa-1 mianbao"
                       v-for="voice in group.voicelist"
                       :key="voice.name"
                       raised
                       color="secondary"
                       @click="play(voice)"
-              >{{voice.translation.Chinese}}
+              >
+                <div>{{voice.translation.Chinese}}</div>
               </v-btn>
             </v-row>
             <v-row no-gutters v-else-if="$i18n.locale=='ja'">
               <v-btn
-                      class="ma-1 pa-1"
+                      class="ma-1 pa-1 mianbao"
                       v-for="voice in group.voicelist"
                       :key="voice.name"
                       raised
                       color="secondary"
                       @click="play(voice)"
-              >{{voice.translation.Japanese}}
+              >
+                <div>{{voice.translation.Japanese}}</div>
               </v-btn>
             </v-row>
           </v-container>
@@ -304,5 +306,32 @@
 
   #volumeM {
     z-index: 999;
+  }
+
+  .mianbao div {
+    display: inline-block;
+    transition: 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .mianbao div:after {
+    content: '🥐';
+    position: absolute;
+    right: -20px;
+    opacity: 0;
+    transition: 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
+  }
+
+  .mianbao:hover div {
+    padding-left: 0;
+    padding-right: 24px;
+  }
+
+  .mianbao:hover div:after {
+    opacity: 1;
+    right: 0;
+    text-align: center;
   }
 </style>
