@@ -19,7 +19,7 @@ module.exports = {
         betainfo: "2020/6/8 First beta version online.\n2020/6/10, English translation",
         info: "Congratulation to Inugami Korone, reaching 400k channel subscribers",
         developer: "Developer：Coceki",
-        cridits: "Special Thanks：野兔子同好会 Richard_Al 昭和歌姬夏半首\nEnglish Translation:Hololive Moments",
+        cridits: "Special Thanks：戌神沁音字幕组 & 戌神沁音的手指面包店　& Fubuki-Button & 夜月赤 & Symmetry.Chaos & BF天下 \nEnglish Translation:Hololive Moments",
         tips1: "Open the play queue, select the sound clips (duplication is allowed)",
         tips2: "Then click the round button on bottom right corner",
         tips3: "It will play these clips in order",
