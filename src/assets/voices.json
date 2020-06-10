@@ -36,7 +36,7 @@
             "Japanese": "",
             "English": "Here I am~",
             "Romaji": "Kokodayo~"
-            
+
           }
         },
         {
@@ -226,7 +226,7 @@
             "Chinese": "惊吓狗",
             "Japanese": "",
             "English": "*Scared Doggo~*",
-            "Romaji": ""  
+            "Romaji": ""
           }
         },
         {
@@ -236,7 +236,7 @@
             "Chinese": "水开了1",
             "Japanese": "",
             "English": "*Boiling Water 1*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -246,7 +246,7 @@
             "Chinese": "水开了2",
             "Japanese": "",
             "English": "*Boiling Water 2*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -256,7 +256,7 @@
             "Chinese": "水开了3",
             "Japanese": "",
             "English": "*Boiling Water 3*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -266,7 +266,7 @@
             "Chinese": "沁机枪",
             "Japanese": "",
             "English": "*Korone Machine Gun*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -276,7 +276,7 @@
             "Chinese": "狗语",
             "Japanese": "",
             "English": "*Doggo languange*",
-            "Romaji": "Bye bye puu puu" 
+            "Romaji": "Bye bye puu puu"
           }
         },
         {
@@ -286,7 +286,7 @@
             "Chinese": "门 松 气 缸 进 气",
             "Japanese": "",
             "English": "*Kado matsu cylinder intaking air*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         }
       ]
@@ -306,7 +306,7 @@
             "Chinese": "幼犬悲鸣",
             "Japanese": "",
             "English": "*Puppy cry*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -316,7 +316,7 @@
             "Chinese": "幼犬悲鸣2",
             "Japanese": "",
             "English": "*Puppy cry 2*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -326,7 +326,7 @@
             "Chinese": "幼犬悲鸣3",
             "Japanese": "",
             "English": "*Puppy cry 3*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -336,7 +336,7 @@
             "Chinese": "快乐狗叫",
             "Japanese": "",
             "English": "*Happy doggo bark*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -346,7 +346,7 @@
             "Chinese": "汪",
             "Japanese": "",
             "English": "*Bark*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -356,7 +356,7 @@
             "Chinese": "汪汪",
             "Japanese": "",
             "English": "*Bark Bark*",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -366,7 +366,7 @@
             "Chinese": "狗叫",
             "Japanese": "",
             "English": "*Doggo noise*",
-            "Romaji": "WAWAWAWAWAWA" 
+            "Romaji": "WAWAWAWAWAWA"
           }
         }
       ]
@@ -386,7 +386,7 @@
             "Chinese": "别以为红sc就能骗过我-还真能",
             "Japanese": "",
             "English": "You think you can fool me with red superchat? You are right",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -396,7 +396,7 @@
             "Chinese": "别去看其它女人嘛",
             "Japanese": "",
             "English": "Don't go to other women",
-            "Romaji": "" 
+            "Romaji": ""
           }
         },
         {
@@ -593,7 +593,7 @@
           "name": "thankyoubeybey~",
           "path": "6.狗子教你学英语/thankyoubeybey~.mp3",
           "translation": {
-            "Chinese": "thankyoubeybey~",
+            "Chinese": "thankyoubyebye~",
             "Japanese": "",
             "English": "Thank you, bye bye~",
             "Romaji": ""
@@ -627,6 +627,126 @@
             "Japanese": "",
             "English": "I LOVE YOU~",
             "Romaji": "I LOVE YOU~"
+          }
+        },
+        {
+          "name": "I am crazy dog",
+          "path": "9.temp/I am crazy dog.mp3",
+          "translation": {
+            "Chinese": "I am crazy dog",
+            "English": "I am crazy dog"
+          }
+        },
+        {
+          "name": "I am crazy",
+          "path": "9.temp/I am crazy.mp3",
+          "translation": {
+            "Chinese": "I am crazy",
+            "English": "I am crazy"
+          }
+        },
+        {
+          "name": "I am korone inugami",
+          "path": "9.temp/I am korone inugami.mp3",
+          "translation": {
+            "Chinese": "I am korone inugami",
+            "English": "I am korone inugami"
+          }
+        },
+        {
+          "name": "I am not crazy",
+          "path": "9.temp/I am not crazy.mp3",
+          "translation": {
+            "Chinese": "I am not crazy",
+            "English": "I am not crazy"
+          }
+        },
+        {
+          "name": "I love u",
+          "path": "9.temp/I love u.mp3",
+          "translation": {
+            "Chinese": "I love u",
+            "English": "I love u"
+          }
+        },
+        {
+          "name": "She sell sea shell by the sea shore",
+          "path": "9.temp/She sell sea shell by the sea shore.mp3",
+          "translation": {
+            "Chinese": "She sell sea shell by the sea shore",
+            "English": "She sell sea shell by the sea shore"
+          }
+        },
+        {
+          "name": "Xpotato",
+          "path": "9.temp/Xpotato.mp3",
+          "translation": {
+            "Chinese": "Xpotato",
+            "English": "Xpotato"
+          }
+        },
+        {
+          "name": "as you fish",
+          "path": "9.temp/as you fish.mp3",
+          "translation": {
+            "Chinese": "as you fish",
+            "English": "as you fish"
+          }
+        },
+        {
+          "name": "good evening",
+          "path": "9.temp/good evening.mp3",
+          "translation": {
+            "Chinese": "good evening",
+            "English": "good evening"
+          }
+        },
+        {
+          "name": "please finger",
+          "path": "9.temp/please finger.mp3",
+          "translation": {
+            "Chinese": "Please finger",
+            "English": "Please finger"
+          }
+        },
+        {
+          "name": "shut up",
+          "path": "9.temp/shut up.mp3",
+          "translation": {
+            "Chinese": "Shut up",
+            "English": "Shut up"
+          }
+        },
+        {
+          "name": "understandi",
+          "path": "9.temp/understandi.mp3",
+          "translation": {
+            "Chinese": "Understandi",
+            "English": "Understandi"
+          }
+        },
+        {
+          "name": "what",
+          "path": "9.temp/what.mp3",
+          "translation": {
+            "Chinese": "What",
+            "English": "What"
+          }
+        },
+        {
+          "name": "yes my dog",
+          "path": "9.temp/yes my dog.mp3",
+          "translation": {
+            "Chinese": "Yes my dog",
+            "English": "Yes my dog"
+          }
+        },
+        {
+          "name": "みんなShut up",
+          "path": "9.temp/みんなShut up.mp3",
+          "translation": {
+            "Chinese": "大家 Shut up",
+            "English": "All shut up"
           }
         }
       ]

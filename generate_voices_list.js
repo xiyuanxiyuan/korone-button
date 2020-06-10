@@ -32,7 +32,7 @@ class group {
     }
 }
 
-for(let i = 0;i < 8;i++) {
+for(let i = 0;i < 9;i++) {
     voices.groups.push(new group((i+1).toString()));
 }
 
@@ -58,4 +58,6 @@ files.forEach(function (item) {
 out_json = JSON.stringify(voices, null, 2);
 
 fs.writeFileSync('./temp.json', out_json);
+
+console.log(out_json);
 
