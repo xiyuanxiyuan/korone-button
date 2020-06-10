@@ -288,6 +288,14 @@
             "English": "*Kado matsu cylinder intaking air*",
             "Romaji": ""
           }
+        },
+        {
+          "name": "鸭子叫",
+          "path": "2.语气拟声/鸭子叫.mp3",
+          "translation": {
+            "Chinese": "鸭子叫",
+            "English": "quack quack"
+          }
         }
       ]
     },
@@ -747,6 +755,46 @@
           "translation": {
             "Chinese": "大家 Shut up",
             "English": "All shut up"
+          }
+        },
+        {
+          "name": "Hey guys",
+          "path": "6.狗子教你学英语/Hey guys.mp3",
+          "translation": {
+            "Chinese": "Hey guys",
+            "English": "Hey guys"
+          }
+        },
+        {
+          "name": "I'm duck",
+          "path": "6.狗子教你学英语/I'm duck.mp3",
+          "translation": {
+            "Chinese": "I'm duck",
+            "English": "I'm duck"
+          }
+        },
+        {
+          "name": "Noooooo",
+          "path": "6.狗子教你学英语/Noooooo.mp3",
+          "translation": {
+            "Chinese": "Noooooo",
+            "English": "Noooooo"
+          }
+        },
+        {
+          "name": "hey guys 10s version",
+          "path": "6.狗子教你学英语/hey guys 10s version.mp3",
+          "translation": {
+            "Chinese": "hey guys 10秒版本",
+            "English": "hey guys 10s version"
+          }
+        },
+        {
+          "name": "thank u very much",
+          "path": "6.狗子教你学英语/thank u very much.mp3",
+          "translation": {
+            "Chinese": "thank u very much",
+            "English": "thank u very much"
           }
         }
       ]

@@ -45,19 +45,20 @@ files.forEach(function (item) {
         "Chinese": group_name,
         "Japanese": ""
     };
+    let voice_name = i[1].toString().split('.')[0];
     voices.groups[group_index-1].voicelist.push({
-        "name": i[1],
+        "name": voice_name,
         "path": item,
         "translation": {
-            "Chinese": i[1],
-            "Japanese": ""
+            "Chinese": voice_name,
+            "English": voice_name
         }
     })
 });
 
 out_json = JSON.stringify(voices, null, 2);
 
-fs.writeFileSync('./temp.json', out_json);
+//fs.writeFileSync('./temp.json', out_json);
 
 console.log(out_json);
 
