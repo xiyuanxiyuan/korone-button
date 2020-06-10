@@ -4,7 +4,8 @@
       "name": "片头",
       "translation": {
         "Chinese": "片头",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "Intro"
       },
       "voicelist": [
         {
@@ -12,7 +13,9 @@
           "path": "1.片头/霍拉迷迭霍拉哟.mp3",
           "translation": {
             "Chinese": "霍拉迷迭霍拉哟",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Hola look, Hola",
+            "Romaji": "Hora mite, Hola yo"
           }
         },
         {
@@ -20,7 +23,9 @@
           "path": "1.片头/啊啊啊啊啊 啊啊啊啊啊.mp3",
           "translation": {
             "Chinese": "啊啊啊啊啊 啊啊啊啊啊",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "AAAAAAAAAAAAAAAAAAAAAAAAA",
+            "Romaji": "AAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         {
@@ -28,7 +33,10 @@
           "path": "1.片头/kokodayo.mp3",
           "translation": {
             "Chinese": "kokodayo",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Here I am~",
+            "Romaji": "Kokodayo~"
+            
           }
         },
         {
@@ -36,7 +44,9 @@
           "path": "1.片头/mio香一宿你拉哟.mp3",
           "translation": {
             "Chinese": "mio香一宿你拉哟",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Mio-chan let's play!!!",
+            "Romaji": "Mio-chan issyoniyarou!!!"
           }
         },
         {
@@ -44,7 +54,9 @@
           "path": "1.片头/啊啦啦啦啦.mp3",
           "translation": {
             "Chinese": "啊啦啦啦啦",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Alalalala!!!",
+            "Romaji": "Arararara!!!"
           }
         },
         {
@@ -52,7 +64,9 @@
           "path": "1.片头/大濑良.mp3",
           "translation": {
             "Chinese": "大濑良",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Osera!!!",
+            "Romaji": "Osera!!!"
           }
         },
         {
@@ -60,7 +74,9 @@
           "path": "1.片头/毁灭吧人类.mp3",
           "translation": {
             "Chinese": "毁灭吧人类",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Doom, human beings!",
+            "Romaji": "Horobirou, jinrui domo"
           }
         },
         {
@@ -68,7 +84,9 @@
           "path": "1.片头/阿嚏.mp3",
           "translation": {
             "Chinese": "阿嚏",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Sneeze*",
+            "Romaji": ""
           }
         }
       ]
@@ -77,7 +95,8 @@
       "name": "语气拟声",
       "translation": {
         "Chinese": "语气拟声",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "Onomatopoeia"
       },
       "voicelist": [
         {
@@ -85,7 +104,9 @@
           "path": "2.语气拟声/totetotetote.mp3",
           "translation": {
             "Chinese": "totetotetote",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "totetotetote",
+            "Romaji": "totetotetote"
           }
         },
         {
@@ -93,7 +114,9 @@
           "path": "2.语气拟声/三 缸 全 转 速.mp3",
           "translation": {
             "Chinese": "三 缸 全 转 速",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Heavy breathing*",
+            "Romaji": ""
           }
         },
         {
@@ -101,7 +124,9 @@
           "path": "2.语气拟声/吐舌头.mp3",
           "translation": {
             "Chinese": "吐舌头",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Tongue out*",
+            "Romaji": ""
           }
         },
         {
@@ -109,7 +134,9 @@
           "path": "2.语气拟声/吓人.mp3",
           "translation": {
             "Chinese": "吓人",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "scare away",
+            "Romaji": ""
           }
         },
         {
@@ -117,7 +144,9 @@
           "path": "2.语气拟声/吼啦哟.mp3",
           "translation": {
             "Chinese": "吼啦哟",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Ho~La~Yo~",
+            "Romaji": "Ho~La~Yo~"
           }
         },
         {
@@ -125,7 +154,9 @@
           "path": "2.语气拟声/哇哇哇哇哇哇哇weiweiweiwei.mp3",
           "translation": {
             "Chinese": "哇哇哇哇哇哇哇weiweiweiwei",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "weiweiweiwei wawawawawawei",
+            "Romaji": "weiweiweiwei wawawawawawei"
           }
         },
         {
@@ -133,7 +164,9 @@
           "path": "2.语气拟声/哦↑.mp3",
           "translation": {
             "Chinese": "哦↑",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Oh↑",
+            "Romaji": "O"
           }
         },
         {
@@ -141,7 +174,9 @@
           "path": "2.语气拟声/哦啦哦啦呐.mp3",
           "translation": {
             "Chinese": "哦啦哦啦呐",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Ora, ora, ne",
+            "Romaji": "Ora, ora, ne"
           }
         },
         {
@@ -149,7 +184,9 @@
           "path": "2.语气拟声/啊哈↑哈↑哈↑哈↑.mp3",
           "translation": {
             "Chinese": "啊哈↑哈↑哈↑哈↑",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "AH HA↑HA↑HA↑HA↑",
+            "Romaji": "A HA↑HA↑HA↑HA↑"
           }
         },
         {
@@ -157,7 +194,9 @@
           "path": "2.语气拟声/啪敷啪敷咚咚咚.mp3",
           "translation": {
             "Chinese": "啪敷啪敷咚咚咚",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Pafupafu dondondon",
+            "Romaji": "Pafupafu dondondon"
           }
         },
         {
@@ -165,7 +204,9 @@
           "path": "2.语气拟声/噗哈.mp3",
           "translation": {
             "Chinese": "噗哈",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "PuHA!!",
+            "Romaji": "PuHA!!"
           }
         },
         {
@@ -173,7 +214,9 @@
           "path": "2.语气拟声/外神吹笛.mp3",
           "translation": {
             "Chinese": "外神吹笛",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "AHA~",
+            "Romaji": "AHA~"
           }
         },
         {
@@ -181,7 +224,9 @@
           "path": "2.语气拟声/惊吓狗.mp3",
           "translation": {
             "Chinese": "惊吓狗",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Scared Doggo~*",
+            "Romaji": ""  
           }
         },
         {
@@ -189,7 +234,9 @@
           "path": "2.语气拟声/水开了1.mp3",
           "translation": {
             "Chinese": "水开了1",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Boiling Water 1*",
+            "Romaji": "" 
           }
         },
         {
@@ -197,7 +244,9 @@
           "path": "2.语气拟声/水开了2.mp3",
           "translation": {
             "Chinese": "水开了2",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Boiling Water 2*",
+            "Romaji": "" 
           }
         },
         {
@@ -205,7 +254,9 @@
           "path": "2.语气拟声/水开了3.mp3",
           "translation": {
             "Chinese": "水开了3",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Boiling Water 3*",
+            "Romaji": "" 
           }
         },
         {
@@ -213,7 +264,9 @@
           "path": "2.语气拟声/沁机枪.mp3",
           "translation": {
             "Chinese": "沁机枪",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Korone Machine Gun*",
+            "Romaji": "" 
           }
         },
         {
@@ -221,7 +274,9 @@
           "path": "2.语气拟声/狗语.mp3",
           "translation": {
             "Chinese": "狗语",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Doggo languange*",
+            "Romaji": "Bye bye puu puu" 
           }
         },
         {
@@ -229,7 +284,9 @@
           "path": "2.语气拟声/门 松 气 缸 进 气.mp3",
           "translation": {
             "Chinese": "门 松 气 缸 进 气",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Kado matsu cylinder intaking air*",
+            "Romaji": "" 
           }
         }
       ]
@@ -238,7 +295,8 @@
       "name": "绝赞狗叫",
       "translation": {
         "Chinese": "绝赞狗叫",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "Doggo barks"
       },
       "voicelist": [
         {
@@ -246,7 +304,9 @@
           "path": "3.绝赞狗叫/幼犬悲鸣.mp3",
           "translation": {
             "Chinese": "幼犬悲鸣",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Puppy cry*",
+            "Romaji": "" 
           }
         },
         {
@@ -254,7 +314,9 @@
           "path": "3.绝赞狗叫/幼犬悲鸣2.mp3",
           "translation": {
             "Chinese": "幼犬悲鸣2",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Puppy cry 2*",
+            "Romaji": "" 
           }
         },
         {
@@ -262,7 +324,9 @@
           "path": "3.绝赞狗叫/幼犬悲鸣3.mp3",
           "translation": {
             "Chinese": "幼犬悲鸣3",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Puppy cry 3*",
+            "Romaji": "" 
           }
         },
         {
@@ -270,7 +334,9 @@
           "path": "3.绝赞狗叫/快乐狗叫.mp3",
           "translation": {
             "Chinese": "快乐狗叫",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Happy doggo bark*",
+            "Romaji": "" 
           }
         },
         {
@@ -278,7 +344,9 @@
           "path": "3.绝赞狗叫/汪.mp3",
           "translation": {
             "Chinese": "汪",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Bark*",
+            "Romaji": "" 
           }
         },
         {
@@ -286,7 +354,9 @@
           "path": "3.绝赞狗叫/汪汪.mp3",
           "translation": {
             "Chinese": "汪汪",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Bark Bark*",
+            "Romaji": "" 
           }
         },
         {
@@ -294,7 +364,9 @@
           "path": "3.绝赞狗叫/狗叫.mp3",
           "translation": {
             "Chinese": "狗叫",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Doggo noise*",
+            "Romaji": "WAWAWAWAWAWA" 
           }
         }
       ]
@@ -303,7 +375,8 @@
       "name": "名台词",
       "translation": {
         "Chinese": "名台词",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "Catch phrases"
       },
       "voicelist": [
         {
@@ -311,7 +384,9 @@
           "path": "4.名台词/别以为红sc就能骗过我-还真能.mp3",
           "translation": {
             "Chinese": "别以为红sc就能骗过我-还真能",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "You think you can fool me with red superchat? You are right",
+            "Romaji": "" 
           }
         },
         {
@@ -319,7 +394,9 @@
           "path": "4.名台词/别去看其它女人嘛.mp3",
           "translation": {
             "Chinese": "别去看其它女人嘛",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Don't go to other women",
+            "Romaji": "" 
           }
         },
         {
@@ -327,7 +404,9 @@
           "path": "4.名台词/吶、直播开心吗？.mp3",
           "translation": {
             "Chinese": "吶、直播开心吗？",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Nee, are you enjoying this stream?",
+            "Romaji": "Nee, kono haishin tanoshii?"
           }
         },
         {
@@ -335,7 +414,9 @@
           "path": "4.名台词/吶、罗密欧 喜欢我吗.mp3",
           "translation": {
             "Chinese": "吶、罗密欧 喜欢我吗",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Nee, Romeo, do you like me?",
+            "Romaji": "Nee, Romeo, watashi no koto suki?"
           }
         },
         {
@@ -343,7 +424,9 @@
           "path": "4.名台词/嘛 是这种感觉呢.mp3",
           "translation": {
             "Chinese": "嘛 是这种感觉呢",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "That's how it feels.",
+            "Romaji": "Konna kanji ne!"
           }
         },
         {
@@ -351,7 +434,9 @@
           "path": "4.名台词/大蛇丸台词.mp3",
           "translation": {
             "Chinese": "大蛇丸台词",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Orochimaru*",
+            "Romaji": "Ishisugita. Ishini natta, ware"
           }
         },
         {
@@ -359,7 +444,9 @@
           "path": "4.名台词/心疼想抱.mp3",
           "translation": {
             "Chinese": "心疼想抱",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Wait, don't go~",
+            "Romaji": "mate, mate, mate, ikanaide, ganbarukara"
           }
         },
         {
@@ -367,7 +454,9 @@
           "path": "4.名台词/手指！手指！.mp3",
           "translation": {
             "Chinese": "手指！手指！",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Finger finger",
+            "Romaji": "Yubi yubi"
           }
         },
         {
@@ -375,7 +464,9 @@
           "path": "4.名台词/沁音的里社会讲座.mp3",
           "translation": {
             "Chinese": "沁音的里社会讲座",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Korone's underground society seminar",
+            "Romaji": "Korone no urashakai gouza"
           }
         },
         {
@@ -383,7 +474,9 @@
           "path": "4.名台词/这个世界怎么了.mp3",
           "translation": {
             "Chinese": "这个世界怎么了",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "What's wrong with this world",
+            "Romaji": "Nan nan da kono sekai ha"
           }
         },
         {
@@ -391,7 +484,9 @@
           "path": "4.名台词/霍拉迷迭霍拉哟.mp3",
           "translation": {
             "Chinese": "霍拉迷迭霍拉哟",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Hola look, Hola",
+            "Romaji": "Hora mite, Hola yo"
           }
         }
       ]
@@ -400,7 +495,8 @@
       "name": "通用",
       "translation": {
         "Chinese": "通用",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "General"
       },
       "voicelist": [
         {
@@ -408,7 +504,9 @@
           "path": "5.通用/thankyoubeybey~.mp3",
           "translation": {
             "Chinese": "thankyoubeybey~",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Thank you, bye bye~",
+            "Romaji": ""
           }
         },
         {
@@ -416,7 +514,9 @@
           "path": "5.通用/不懂（呆.mp3",
           "translation": {
             "Chinese": "不懂（呆",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "I don't get it",
+            "Romaji": "Wakaran"
           }
         },
         {
@@ -424,7 +524,9 @@
           "path": "5.通用/亚达.mp3",
           "translation": {
             "Chinese": "亚达",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "No~",
+            "Romaji": "iyada"
           }
         },
         {
@@ -432,7 +534,9 @@
           "path": "5.通用/对不起.mp3",
           "translation": {
             "Chinese": "对不起",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Sorry",
+            "Romaji":"Gomen ne."
           }
         },
         {
@@ -440,7 +544,9 @@
           "path": "5.通用/谢谢.mp3",
           "translation": {
             "Chinese": "谢谢",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Thanks",
+            "Romaji": "arigatou"
           }
         }
       ]
@@ -449,7 +555,8 @@
       "name": "狗子教你学英语",
       "translation": {
         "Chinese": "狗子教你学英语",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "Doggo teaching English"
       },
       "voicelist": [
         {
@@ -457,7 +564,9 @@
           "path": "6.狗子教你学英语/Exposito.mp3",
           "translation": {
             "Chinese": "Exposito",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Exposito",
+            "Romaji": "Exposito"
           }
         },
         {
@@ -465,7 +574,9 @@
           "path": "6.狗子教你学英语/fuckyou.mp3",
           "translation": {
             "Chinese": "fuckyou",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "fuck you",
+            "Romaji": "fuck you"
           }
         },
         {
@@ -473,7 +584,9 @@
           "path": "6.狗子教你学英语/nonono.mp3",
           "translation": {
             "Chinese": "nonono",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "no no no no no",
+            "Romaji": "no no no no no"
           }
         },
         {
@@ -481,7 +594,9 @@
           "path": "6.狗子教你学英语/thankyoubeybey~.mp3",
           "translation": {
             "Chinese": "thankyoubeybey~",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Thank you, bye bye~",
+            "Romaji": ""
           }
         },
         {
@@ -489,7 +604,9 @@
           "path": "6.狗子教你学英语/what the fxxk.mp3",
           "translation": {
             "Chinese": "what the fxxk",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "What the FA?",
+            "Romaji": ""
           }
         },
         {
@@ -497,7 +614,9 @@
           "path": "6.狗子教你学英语/wow.mp3",
           "translation": {
             "Chinese": "wow",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "WOW",
+            "Romaji": ""
           }
         },
         {
@@ -505,7 +624,9 @@
           "path": "6.狗子教你学英语/狗子爱你哟.mp3",
           "translation": {
             "Chinese": "狗子爱你哟",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "I LOVE YOU~",
+            "Romaji": "I LOVE YOU~"
           }
         }
       ]
@@ -514,7 +635,8 @@
       "name": "八嘎合集",
       "translation": {
         "Chinese": "八嘎合集",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "BAKA"
       },
       "voicelist": [
         {
@@ -522,7 +644,9 @@
           "path": "7.八嘎合集/八嘎.mp3",
           "translation": {
             "Chinese": "八嘎",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Idiot",
+            "Romaji": "BAKA"
           }
         },
         {
@@ -530,7 +654,9 @@
           "path": "7.八嘎合集/八嘎~.mp3",
           "translation": {
             "Chinese": "八嘎~",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Idiot~",
+            "Romaji": "BAKA~"
           }
         },
         {
@@ -538,7 +664,9 @@
           "path": "7.八嘎合集/八嘎呀路哦.mp3",
           "translation": {
             "Chinese": "八嘎呀路哦",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Dumbass",
+            "Romaji": "BAKAYAROU"
           }
         },
         {
@@ -546,7 +674,9 @@
           "path": "7.八嘎合集/八嘎呀路！.mp3",
           "translation": {
             "Chinese": "八嘎呀路！",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Dumbass!",
+            "Romaji": "BAKAYAROU!"
           }
         },
         {
@@ -554,7 +684,9 @@
           "path": "7.八嘎合集/笨蛋粥.mp3",
           "translation": {
             "Chinese": "笨蛋粥",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Bakayu",
+            "Romaji": "Bakayu"
           }
         }
       ]
@@ -563,7 +695,8 @@
       "name": "其他",
       "translation": {
         "Chinese": "其他",
-        "Japanese": ""
+        "Japanese": "",
+        "English": "Misc."
       },
       "voicelist": [
         {
@@ -571,7 +704,9 @@
           "path": "8.其他/486也要搞！.mp3",
           "translation": {
             "Chinese": "486也要搞！",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Subaru, try it",
+            "Romaji": "Subaru mo yaru!"
           }
         },
         {
@@ -579,7 +714,9 @@
           "path": "8.其他/NEEEEEEEEEEEE.mp3",
           "translation": {
             "Chinese": "NEEEEEEEEEEEE",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "NEEEEEEEEEEEE",
+            "Romaji": "NEEEEEEEEEEEE"
           }
         },
         {
@@ -587,7 +724,9 @@
           "path": "8.其他/na~ninuneno.mp3",
           "translation": {
             "Chinese": "na~ninuneno",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "na~ ni nu ne no",
+            "Romaji": "na~ ni nu ne no!"
           }
         },
         {
@@ -595,7 +734,9 @@
           "path": "8.其他/x♂p.mp3",
           "translation": {
             "Chinese": "x♂p",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Shinpi",
+            "Romaji": "Shinpi"
           }
         },
         {
@@ -603,7 +744,9 @@
           "path": "8.其他/傻狗笑.mp3",
           "translation": {
             "Chinese": "傻狗笑",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Doggo laugh*",
+            "Romaji": "Doggo laugh"
           }
         },
         {
@@ -611,7 +754,9 @@
           "path": "8.其他/削除削除！.mp3",
           "translation": {
             "Chinese": "削除削除！",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Delete delete!",
+            "Romaji": "Sakujo sakujo"
           }
         },
         {
@@ -619,7 +764,9 @@
           "path": "8.其他/削除！.mp3",
           "translation": {
             "Chinese": "削除！",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Delete delete!",
+            "Romaji": "Sakujo"
           }
         },
         {
@@ -627,7 +774,9 @@
           "path": "8.其他/变魔术.mp3",
           "translation": {
             "Chinese": "变魔术",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "*Magic trick*",
+            "Romaji": ""
           }
         },
         {
@@ -635,7 +784,9 @@
           "path": "8.其他/吵死了 沁粥.mp3",
           "translation": {
             "Chinese": "吵死了 沁粥",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Shut up, Okakoro",
+            "Romaji": "Urusei, Okakoro!"
           }
         },
         {
@@ -643,7 +794,9 @@
           "path": "8.其他/大爆炸攻击！.mp3",
           "translation": {
             "Chinese": "大爆炸攻击！",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Big Bang Attack!",
+            "Romaji": ""
           }
         },
         {
@@ -651,7 +804,9 @@
           "path": "8.其他/夹脸回外星语.mp3",
           "translation": {
             "Chinese": "夹脸回外星语",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Alien doggo language",
+            "Romaji": ""
           }
         },
         {
@@ -659,7 +814,9 @@
           "path": "8.其他/奶凶狗.mp3",
           "translation": {
             "Chinese": "奶凶狗",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Don't look at me!",
+            "Romaji": "Kochi minaide"
           }
         },
         {
@@ -667,7 +824,9 @@
           "path": "8.其他/她 是 谁.mp3",
           "translation": {
             "Chinese": "她 是 谁",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Who is she?",
+            "Romaji":""
           }
         },
         {
@@ -675,7 +834,9 @@
           "path": "8.其他/妈妈~.mp3",
           "translation": {
             "Chinese": "妈妈~",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "MAMA~",
+            "Romaji":""
           }
         },
         {
@@ -683,7 +844,9 @@
           "path": "8.其他/我草.mp3",
           "translation": {
             "Chinese": "我草",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "What's up",
+            "Romaji": "Wa tsao"
           }
         },
         {
@@ -691,7 +854,9 @@
           "path": "8.其他/木大木大木大.mp3",
           "translation": {
             "Chinese": "木大木大木大",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Muda muda muda",
+            "Romaji": "Muda muda muda"
           }
         },
         {
@@ -699,7 +864,9 @@
           "path": "8.其他/木大木大木大2.mp3",
           "translation": {
             "Chinese": "木大木大木大2",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Muda muda muda 2",
+            "Romaji": "Muda muda muda 2"
           }
         },
         {
@@ -707,7 +874,9 @@
           "path": "8.其他/混响水开了.mp3",
           "translation": {
             "Chinese": "混响水开了",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "boiling water (EQ)",
+            "Romaji": ""
           }
         },
         {
@@ -715,7 +884,9 @@
           "path": "8.其他/胡唱狗歌.mp3",
           "translation": {
             "Chinese": "胡唱狗歌",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Doggo's nonsense song",
+            "Romaji": ""
           }
         },
         {
@@ -723,7 +894,9 @@
           "path": "8.其他/谢谢peko.mp3",
           "translation": {
             "Chinese": "谢谢peko",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Thank you-peko",
+            "Romaji": "Aripeko"
           }
         },
         {
@@ -731,7 +904,9 @@
           "path": "8.其他/闭嘴！沁音.mp3",
           "translation": {
             "Chinese": "闭嘴！沁音",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Shut up Korone",
+            "Romaji": "Damare Korone"
           }
         },
         {
@@ -739,7 +914,9 @@
           "path": "8.其他/高速狗语.mp3",
           "translation": {
             "Chinese": "高速狗语",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "High speed doggo language",
+            "Romaji": "???"
           }
         },
         {
@@ -747,7 +924,9 @@
           "path": "8.其他/魔神z.mp3",
           "translation": {
             "Chinese": "魔神z",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Mazinger z",
+            "Romaji": "Majinga Z"
           }
         }
       ]

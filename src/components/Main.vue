@@ -94,6 +94,7 @@
         <v-card class="ma-1 pa-0">
           <v-card-title v-if="$i18n.locale=='zhHans'">{{group.translation.Chinese}}</v-card-title>
           <v-card-title v-else-if="$i18n.locale=='ja'">{{group.translation.Japanese}}</v-card-title>
+          <v-card-title v-else-if="$i18n.locale=='en'">{{group.translation.English}}</v-card-title>
           <v-container>
             <v-row no-gutters v-if="$i18n.locale=='zhHans'">
               <v-btn
@@ -117,6 +118,18 @@
                       @click="play(voice)"
               >
                 <div>{{voice.translation.Japanese}}</div>
+              </v-btn>
+            </v-row>
+            <v-row no-gutters v-else-if="$i18n.locale=='en'">
+              <v-btn
+                      class="ma-1 pa-1 mianbao"
+                      v-for="voice in group.voicelist"
+                      :key="voice.name"
+                      raised
+                      color="secondary"
+                      @click="play(voice)"
+              >
+                <div>{{voice.translation.English}}</div>
               </v-btn>
             </v-row>
           </v-container>
