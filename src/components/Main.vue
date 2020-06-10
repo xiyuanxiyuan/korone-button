@@ -320,7 +320,11 @@
   #volumeM {
     z-index: 999;
   }
-
+  
+  .mianbao {
+    text-transform: none;
+  }
+  
   .mianbao div {
     display: inline-block;
     transition: 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
