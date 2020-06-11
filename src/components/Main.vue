@@ -103,6 +103,8 @@
                       :key="voice.name"
                       raised
                       color="secondary"
+                      height="max-content"
+                      min-height="36px"
                       @click="play(voice)"
               >
                 <div>{{voice.translation.Chinese}}</div>
@@ -115,6 +117,8 @@
                       :key="voice.name"
                       raised
                       color="secondary"
+                      height="max-content"
+                      min-height="36px"
                       @click="play(voice)"
               >
                 <div>{{voice.translation.Japanese}}</div>
@@ -127,6 +131,8 @@
                       :key="voice.name"
                       raised
                       color="secondary"
+                      height="max-content"
+                      min-height="36px"
                       @click="play(voice)"
               >
                 <div>{{voice.translation.English}}</div>
@@ -320,11 +326,16 @@
   #volumeM {
     z-index: 999;
   }
-  
+
   .mianbao {
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    white-space: normal !important;
     text-transform: none;
   }
-  
+
   .mianbao div {
     display: inline-block;
     transition: 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
