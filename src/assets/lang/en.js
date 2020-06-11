@@ -1,5 +1,33 @@
 module.exports = {
     ui: {
-
+        title: "Korone Button",
+        mediacontorl: "Control Button",
+        stopplay: "Stop",
+        helptitle: "Help",
+        helpcontent: "Click button to play Korone's lines~ No need to wait for the first line to finish before playing the next one",
+        additionalhelp: "Volumn warning. Each of the sound clips may have different volumns. Sorry but I'm not going to do anything about it ε=ε=ε=┏(゜ロ゜;)┛",
+        openorderplaymode: "Playlist mode",
+        orderplaymode: "Play in order",
+        orderlistnow: "Current playlist",
+        playthislist: "Play in order",
+        listempty: "Playlist is Empty",
+        resetorder: "Clear the playlist",
+        language: "Language",
+        orderplaymodehelp: "How to use the playlist",
+        developerinfo: "This site is made by fans. ",
+        repeatmode: "Don't you ever stop!(Loop play)",
+        betainfo: "2020/6/8 First beta version online.\n2020/6/10, English translation",
+        info: "Congratulation to Inugami Korone, reaching 400k channel subscribers",
+        developer: "Developer：Coceki & Lonely_ion",
+        cridits: "Special Thanks：戌神沁音字幕组 & 戌神沁音的手指面包店　& Fubuki-Button & 夜月赤 & Symmetry.Chaos & BF天下 \nEnglish Translation:Hololive Moments",
+        tips1: "Open the play queue, select the sound clips (duplication is allowed)",
+        tips2: "Then click the round button on bottom right corner",
+        tips3: "It will play these clips in order",
+        beta: "Update soon",
+        gotit: "Got it",
+        entersomewords: "Please enter the sentence you want to generate(please don't write too long, it may lag)",
+        generate: "Generate",
+        helpdevelope: "Help improve the website",
+        volume: "Volume"
     }
 }

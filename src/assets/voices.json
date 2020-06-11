@@ -5,6 +5,7 @@
       "translation": {
         "Chinese": "片头",
         "Japanese": "タイトルバック"
+        "English": "Intro"
       },
       "voicelist": [
         {
@@ -13,6 +14,8 @@
           "translation": {
             "Chinese": "霍拉迷迭霍拉哟",
             "Japanese": "ほら見てほらよ"
+            "English": "Hola look, Hola",
+            "Romaji": "Hora mite, Hola yo"
           }
         },
         {
@@ -21,6 +24,8 @@
           "translation": {
             "Chinese": "啊啊啊啊啊 啊啊啊啊啊",
             "Japanese": "あぁぁぁぁ　あぁぁぁぁ"
+            "English": "AAAAAAAAAAAAAAAAAAAAAAAAA",
+            "Romaji": "AAAAAAAAAAAAAAAAAAAAAAAAA"
           }
         },
         {
@@ -29,6 +34,8 @@
           "translation": {
             "Chinese": "kokodayo",
             "Japanese": "ここだよ"
+            "English": "Here I am~",
+            "Romaji": "Kokodayo~"
           }
         },
         {
@@ -37,6 +44,8 @@
           "translation": {
             "Chinese": "mio香一宿你拉哟",
             "Japanese": "ミオしゃ一緒にやろ"
+            "English": "Mio-chan let's play!!!",
+            "Romaji": "Mio-chan issyoniyarou!!!"
           }
         },
         {
@@ -45,6 +54,8 @@
           "translation": {
             "Chinese": "啊啦啦啦啦",
             "Japanese": "あらららら"
+            "English": "Alalalala!!!",
+            "Romaji": "Arararara!!!"
           }
         },
         {
@@ -53,6 +64,8 @@
           "translation": {
             "Chinese": "大濑良",
             "Japanese": "オオセラ"
+            "English": "Osera!!!",
+            "Romaji": "Osera!!!"
           }
         },
         {
@@ -61,6 +74,8 @@
           "translation": {
             "Chinese": "毁灭吧人类",
             "Japanese": "滅びろ　人類とも"
+            "English": "Doom, human beings!",
+            "Romaji": "Horobirou, jinrui domo"
           }
         },
         {
@@ -69,6 +84,8 @@
           "translation": {
             "Chinese": "阿嚏",
             "Japanese": "ハックション"
+            "English": "*Sneeze*",
+            "Romaji": ""
           }
         }
       ]
@@ -78,6 +95,7 @@
       "translation": {
         "Chinese": "语气拟声",
         "Japanese": "擬声語"
+        "English": "Onomatopoeia"
       },
       "voicelist": [
         {
@@ -86,6 +104,8 @@
           "translation": {
             "Chinese": "totetotetote",
             "Japanese": "とてとてとて"
+            "English": "totetotetote",
+            "Romaji": "totetotetote"
           }
         },
         {
@@ -94,6 +114,8 @@
           "translation": {
             "Chinese": "三 缸 全 转 速",
             "Japanese": "真の犬声"
+            "English": "*Heavy breathing*",
+            "Romaji": ""
           }
         },
         {
@@ -102,6 +124,8 @@
           "translation": {
             "Chinese": "吐舌头",
             "Japanese": "ぶらぁ"
+            "English": "*Tongue out*",
+            "Romaji": ""
           }
         },
         {
@@ -110,6 +134,8 @@
           "translation": {
             "Chinese": "吓人",
             "Japanese": "ヴぁー"
+            "English": "scare away",
+            "Romaji": ""
           }
         },
         {
@@ -118,6 +144,8 @@
           "translation": {
             "Chinese": "吼啦哟",
             "Japanese": "ほらよ"
+            "English": "Ho~La~Yo~",
+            "Romaji": "Ho~La~Yo~"
           }
         },
         {
@@ -126,6 +154,8 @@
           "translation": {
             "Chinese": "哇哇哇哇哇哇哇weiweiweiwei",
             "Japanese": "ヴェヴェワワ"
+            "English": "weiweiweiwei wawawawawawei",
+            "Romaji": "weiweiweiwei wawawawawawei"
           }
         },
         {
@@ -134,6 +164,8 @@
           "translation": {
             "Chinese": "哦↑",
             "Japanese": "おっ？"
+            "English": "Oh↑",
+            "Romaji": "O"
           }
         },
         {
@@ -142,6 +174,8 @@
           "translation": {
             "Chinese": "哦啦哦啦呐",
             "Japanese": "ほらほら　ね"
+            "English": "Ora, ora, ne",
+            "Romaji": "Ora, ora, ne"
           }
         },
         {
@@ -150,6 +184,8 @@
           "translation": {
             "Chinese": "啊哈↑哈↑哈↑哈↑",
             "Japanese": "アハハ！"
+            "English": "AH HA↑HA↑HA↑HA↑",
+            "Romaji": "A HA↑HA↑HA↑HA↑"
           }
         },
         {
@@ -158,6 +194,8 @@
           "translation": {
             "Chinese": "啪敷啪敷咚咚咚",
             "Japanese": "パフパフドンドンドン"
+            "English": "Pafupafu dondondon",
+            "Romaji": "Pafupafu dondondon"
           }
         },
         {
@@ -166,6 +204,8 @@
           "translation": {
             "Chinese": "噗哈",
             "Japanese": "ぷはぁ"
+            "English": "PuHA!!",
+            "Romaji": "PuHA!!"
           }
         },
         {
@@ -174,6 +214,8 @@
           "translation": {
             "Chinese": "外神吹笛",
             "Japanese": "ひはぁ"
+            "English": "AHA~",
+            "Romaji": "AHA~"
           }
         },
         {
@@ -182,6 +224,8 @@
           "translation": {
             "Chinese": "惊吓狗",
             "Japanese": "びっくりする犬"
+            "English": "*Scared Doggo~*",
+            "Romaji": ""
           }
         },
         {
@@ -190,6 +234,8 @@
           "translation": {
             "Chinese": "水开了1",
             "Japanese": "沸騰した水"
+            "English": "*Boiling Water 1*",
+            "Romaji": ""
           }
         },
         {
@@ -198,6 +244,8 @@
           "translation": {
             "Chinese": "水开了2",
             "Japanese": "沸騰したH₂О"
+            "English": "*Boiling Water 2*",
+            "Romaji": ""
           }
         },
         {
@@ -206,6 +254,8 @@
           "translation": {
             "Chinese": "水开了3",
             "Japanese": "沸騰したウォーター"
+            "English": "*Boiling Water 3*",
+            "Romaji": ""
           }
         },
         {
@@ -214,6 +264,8 @@
           "translation": {
             "Chinese": "沁机枪",
             "Japanese": "ころシンガン"
+            "English": "*Korone Machine Gun*",
+            "Romaji": ""
           }
         },
         {
@@ -222,6 +274,8 @@
           "translation": {
             "Chinese": "狗语",
             "Japanese": "狗語の研究レポート"
+            "English": "*Doggo languange*",
+            "Romaji": "Bye bye puu puu"
           }
         },
         {
@@ -230,6 +284,16 @@
           "translation": {
             "Chinese": "门 松 气 缸 进 气",
             "Japanese": "ターボチャージャー"
+            "English": "*Kado matsu cylinder intaking air*",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "鸭子叫",
+          "path": "2.语气拟声/鸭子叫.mp3",
+          "translation": {
+            "Chinese": "鸭子叫",
+            "English": "quack quack"
           }
         }
       ]
@@ -239,6 +303,7 @@
       "translation": {
         "Chinese": "绝赞狗叫",
         "Japanese": "至高の叫び"
+        "English": "Doggo barks"
       },
       "voicelist": [
         {
@@ -247,6 +312,8 @@
           "translation": {
             "Chinese": "幼犬悲鸣",
             "Japanese": "子犬の悲鳴"
+            "English": "*Puppy cry*",
+            "Romaji": ""
           }
         },
         {
@@ -255,6 +322,8 @@
           "translation": {
             "Chinese": "幼犬悲鸣2",
             "Japanese": "子犬の弱音"
+            "English": "*Puppy cry 2*",
+            "Romaji": ""
           }
         },
         {
@@ -263,6 +332,8 @@
           "translation": {
             "Chinese": "幼犬悲鸣3",
             "Japanese": "子犬の泣き声"
+            "English": "*Puppy cry 3*",
+            "Romaji": ""
           }
         },
         {
@@ -271,6 +342,8 @@
           "translation": {
             "Chinese": "快乐狗叫",
             "Japanese": "ハッピードッグ"
+            "English": "*Happy doggo bark*",
+            "Romaji": ""
           }
         },
         {
@@ -279,6 +352,8 @@
           "translation": {
             "Chinese": "汪",
             "Japanese": "ワン"
+            "English": "*Bark*",
+            "Romaji": ""
           }
         },
         {
@@ -287,6 +362,8 @@
           "translation": {
             "Chinese": "汪汪",
             "Japanese": "ワンワン"
+            "English": "*Bark Bark*",
+            "Romaji": ""
           }
         },
         {
@@ -295,6 +372,8 @@
           "translation": {
             "Chinese": "狗叫",
             "Japanese": "ワンワンワンワン"
+            "English": "*Doggo noise*",
+            "Romaji": "WAWAWAWAWAWA"
           }
         }
       ]
@@ -304,6 +383,7 @@
       "translation": {
         "Chinese": "名台词",
         "Japanese": "有名セリフ"
+        "English": "Catch phrases"
       },
       "voicelist": [
         {
@@ -312,6 +392,8 @@
           "translation": {
             "Chinese": "别以为红sc就能骗过我-还真能",
             "Japanese": "ジワる犬"
+            "English": "You think you can fool me with red superchat? You are right",
+            "Romaji": ""
           }
         },
         {
@@ -320,6 +402,8 @@
           "translation": {
             "Chinese": "别去看其它女人嘛",
             "Japanese": "許しを求めてる犬"
+            "English": "Don't go to other women",
+            "Romaji": ""
           }
         },
         {
@@ -328,6 +412,8 @@
           "translation": {
             "Chinese": "吶、直播开心吗？",
             "Japanese": "尋問する犬"
+            "English": "Nee, are you enjoying this stream?",
+            "Romaji": "Nee, kono haishin tanoshii?"
           }
         },
         {
@@ -336,6 +422,8 @@
           "translation": {
             "Chinese": "吶、罗密欧 喜欢我吗",
             "Japanese": "ね、ロミオ　私のこと好き？"
+            "English": "Nee, Romeo, do you like me?",
+            "Romaji": "Nee, Romeo, watashi no koto suki?"
           }
         },
         {
@@ -344,6 +432,8 @@
           "translation": {
             "Chinese": "嘛 是这种感觉呢",
             "Japanese": "こんな感じね"
+            "English": "That's how it feels.",
+            "Romaji": "Konna kanji ne!"
           }
         },
         {
@@ -352,6 +442,8 @@
           "translation": {
             "Chinese": "大蛇丸台词",
             "Japanese": "大蛇丸セリフ"
+            "English": "*Orochimaru*",
+            "Romaji": "Ishisugita. Ishini natta, ware"
           }
         },
         {
@@ -360,6 +452,8 @@
           "translation": {
             "Chinese": "心疼想抱",
             "Japanese": "かわいそうに見える犬"
+            "English": "Wait, don't go~",
+            "Romaji": "mate, mate, mate, ikanaide, ganbarukara"
           }
         },
         {
@@ -368,6 +462,8 @@
           "translation": {
             "Chinese": "手指！手指！",
             "Japanese": "ゆび！ゆび！"
+            "English": "Finger finger",
+            "Romaji": "Yubi yubi"
           }
         },
         {
@@ -376,6 +472,8 @@
           "translation": {
             "Chinese": "沁音的里社会讲座",
             "Japanese": "ころねの裏社会講座"
+            "English": "Korone's underground society seminar",
+            "Romaji": "Korone no urashakai gouza"
           }
         },
         {
@@ -384,6 +482,8 @@
           "translation": {
             "Chinese": "这个世界怎么了",
             "Japanese": "何なんだ　この世界は"
+            "English": "What's wrong with this world",
+            "Romaji": "Nan nan da kono sekai ha"
           }
         },
         {
@@ -392,6 +492,8 @@
           "translation": {
             "Chinese": "霍拉迷迭霍拉哟",
             "Japanese": "ほら見てほらよ"
+            "English": "Hola look, Hola",
+            "Romaji": "Hora mite, Hola yo"
           }
         }
       ]
@@ -401,6 +503,7 @@
       "translation": {
         "Chinese": "通用",
         "Japanese": "通用"
+        "English": "General"
       },
       "voicelist": [
         {
@@ -409,6 +512,8 @@
           "translation": {
             "Chinese": "thankyoubyebye~",
             "Japanese": ""
+            "English": "Thank you, bye bye~",
+            "Romaji": ""
           }
         },
         {
@@ -417,6 +522,8 @@
           "translation": {
             "Chinese": "不懂（呆",
             "Japanese": "わからん"
+            "English": "I don't get it",
+            "Romaji": "Wakaran"
           }
         },
         {
@@ -425,6 +532,8 @@
           "translation": {
             "Chinese": "亚达",
             "Japanese": "いやだっ"
+            "English": "No~",
+            "Romaji": "iyada"
           }
         },
         {
@@ -433,6 +542,8 @@
           "translation": {
             "Chinese": "对不起",
             "Japanese": "謝る犬"
+            "English": "Sorry",
+            "Romaji":"Gomen ne."
           }
         },
         {
@@ -441,6 +552,8 @@
           "translation": {
             "Chinese": "谢谢",
             "Japanese": "感謝する犬"
+            "English": "Thanks",
+            "Romaji": "arigatou"
           }
         }
       ]
@@ -450,6 +563,7 @@
       "translation": {
         "Chinese": "狗子教你学英语",
         "Japanese": "ころね英語time"
+        "English": "Doggo teaching English"
       },
       "voicelist": [
         {
@@ -457,7 +571,9 @@
           "path": "6.狗子教你学英语/Exposito.mp3",
           "translation": {
             "Chinese": "Exposito",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Exposito",
+            "Romaji": "Exposito"
           }
         },
         {
@@ -465,7 +581,9 @@
           "path": "6.狗子教你学英语/fuckyou.mp3",
           "translation": {
             "Chinese": "fuckyou",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "fuck you",
+            "Romaji": "fuck you"
           }
         },
         {
@@ -473,7 +591,9 @@
           "path": "6.狗子教你学英语/nonono.mp3",
           "translation": {
             "Chinese": "nonono",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "no no no no no",
+            "Romaji": "no no no no no"
           }
         },
         {
@@ -481,7 +601,9 @@
           "path": "6.狗子教你学英语/thankyoubyevye~.mp3",
           "translation": {
             "Chinese": "thankyoubyebye~",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "Thank you, bye bye~",
+            "Romaji": ""
           }
         },
         {
@@ -489,7 +611,9 @@
           "path": "6.狗子教你学英语/what the fxxk.mp3",
           "translation": {
             "Chinese": "what the fxxk",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "What the FA?",
+            "Romaji": ""
           }
         },
         {
@@ -497,7 +621,9 @@
           "path": "6.狗子教你学英语/wow.mp3",
           "translation": {
             "Chinese": "wow",
-            "Japanese": ""
+            "Japanese": "",
+            "English": "WOW",
+            "Romaji": ""
           }
         },
         {
@@ -506,6 +632,168 @@
           "translation": {
             "Chinese": "狗子爱你哟",
             "Japanese": "I love you"
+            "English": "I LOVE YOU~",
+            "Romaji": "I LOVE YOU~"
+          }
+        },
+        {
+          "name": "I am crazy dog",
+          "path": "6.狗子教你学英语/I am crazy dog.mp3",
+          "translation": {
+            "Chinese": "I am crazy dog",
+            "English": "I am crazy dog"
+          }
+        },
+        {
+          "name": "I am crazy",
+          "path": "6.狗子教你学英语/I am crazy.mp3",
+          "translation": {
+            "Chinese": "I am crazy",
+            "English": "I am crazy"
+          }
+        },
+        {
+          "name": "I am korone inugami",
+          "path": "6.狗子教你学英语/I am korone inugami.mp3",
+          "translation": {
+            "Chinese": "I am korone inugami",
+            "English": "I am korone inugami"
+          }
+        },
+        {
+          "name": "I am not crazy",
+          "path": "6.狗子教你学英语/I am not crazy.mp3",
+          "translation": {
+            "Chinese": "I am not crazy",
+            "English": "I am not crazy"
+          }
+        },
+        {
+          "name": "I love u",
+          "path": "6.狗子教你学英语/I love u.mp3",
+          "translation": {
+            "Chinese": "I love u",
+            "English": "I love u"
+          }
+        },
+        {
+          "name": "She sell sea shell by the sea shore",
+          "path": "6.狗子教你学英语/She sell sea shell by the sea shore.mp3",
+          "translation": {
+            "Chinese": "She sell sea shell by the sea shore",
+            "English": "She sell sea shell by the sea shore"
+          }
+        },
+        {
+          "name": "Xpotato",
+          "path": "6.狗子教你学英语/Xpotato.mp3",
+          "translation": {
+            "Chinese": "Xpotato",
+            "English": "Xpotato"
+          }
+        },
+        {
+          "name": "as you fish",
+          "path": "6.狗子教你学英语/as you fish.mp3",
+          "translation": {
+            "Chinese": "as you fish",
+            "English": "as you fish"
+          }
+        },
+        {
+          "name": "good evening",
+          "path": "6.狗子教你学英语/good evening.mp3",
+          "translation": {
+            "Chinese": "good evening",
+            "English": "good evening"
+          }
+        },
+        {
+          "name": "please finger",
+          "path": "6.狗子教你学英语/please finger.mp3",
+          "translation": {
+            "Chinese": "Please finger",
+            "English": "Please finger"
+          }
+        },
+        {
+          "name": "shut up",
+          "path": "6.狗子教你学英语/shut up.mp3",
+          "translation": {
+            "Chinese": "Shut up",
+            "English": "Shut up"
+          }
+        },
+        {
+          "name": "understandi",
+          "path": "6.狗子教你学英语/understandi.mp3",
+          "translation": {
+            "Chinese": "Understandi",
+            "English": "Understandi"
+          }
+        },
+        {
+          "name": "what",
+          "path": "6.狗子教你学英语/what.mp3",
+          "translation": {
+            "Chinese": "What",
+            "English": "What"
+          }
+        },
+        {
+          "name": "yes my dog",
+          "path": "6.狗子教你学英语/yes my dog.mp3",
+          "translation": {
+            "Chinese": "Yes my dog",
+            "English": "Yes my dog"
+          }
+        },
+        {
+          "name": "みんなShut up",
+          "path": "6.狗子教你学英语/みんなShut up.mp3",
+          "translation": {
+            "Chinese": "大家 Shut up",
+            "English": "All shut up"
+          }
+        },
+        {
+          "name": "Hey guys",
+          "path": "6.狗子教你学英语/Hey guys.mp3",
+          "translation": {
+            "Chinese": "Hey guys",
+            "English": "Hey guys"
+          }
+        },
+        {
+          "name": "I'm duck",
+          "path": "6.狗子教你学英语/I'm duck.mp3",
+          "translation": {
+            "Chinese": "I'm duck",
+            "English": "I'm duck"
+          }
+        },
+        {
+          "name": "Noooooo",
+          "path": "6.狗子教你学英语/Noooooo.mp3",
+          "translation": {
+            "Chinese": "Noooooo",
+            "English": "Noooooo"
+          }
+        },
+        {
+          "name": "hey guys 10s version",
+          "path": "6.狗子教你学英语/hey guys 10s version.mp3",
+          "translation": {
+            "Chinese": "hey guys 10秒版本",
+            "English": "hey guys 10s version"
+          }
+        },
+        {
+          "name": "thank u very much",
+          "path": "6.狗子教你学英语/thank u very much.mp3",
+          "translation": {
+            "Chinese": "thank u very much",
+            "English": "thank u very much"
           }
         }
       ]
@@ -515,6 +803,7 @@
       "translation": {
         "Chinese": "八嘎合集",
         "Japanese": "叱る犬"
+        "English": "BAKA"
       },
       "voicelist": [
         {
@@ -523,6 +812,8 @@
           "translation": {
             "Chinese": "八嘎",
             "Japanese": "バカ"
+            "English": "Idiot",
+            "Romaji": "BAKA"
           }
         },
         {
@@ -531,6 +822,8 @@
           "translation": {
             "Chinese": "八嘎~",
             "Japanese": "バカ～"
+            "English": "Idiot~",
+            "Romaji": "BAKA~"
           }
         },
         {
@@ -539,6 +832,8 @@
           "translation": {
             "Chinese": "八嘎呀路哦",
             "Japanese": "バカヤロー"
+            "English": "Dumbass",
+            "Romaji": "BAKAYAROU"
           }
         },
         {
@@ -547,6 +842,8 @@
           "translation": {
             "Chinese": "八嘎呀路！",
             "Japanese": "バカヤロ"
+            "English": "Dumbass!",
+            "Romaji": "BAKAYAROU!"
           }
         },
         {
@@ -555,6 +852,8 @@
           "translation": {
             "Chinese": "笨蛋粥",
             "Japanese": "バカゆ"
+            "English": "Bakayu",
+            "Romaji": "Bakayu"
           }
         }
       ]
@@ -564,6 +863,7 @@
       "translation": {
         "Chinese": "其他",
         "Japanese": "その他"
+        "English": "Misc."
       },
       "voicelist": [
         {
@@ -572,6 +872,8 @@
           "translation": {
             "Chinese": "486也要搞！",
             "Japanese": "スバルもやるっ"
+            "English": "Subaru, try it",
+            "Romaji": "Subaru mo yaru!"
           }
         },
         {
@@ -580,6 +882,8 @@
           "translation": {
             "Chinese": "NEEEEEEEEEEEE",
             "Japanese": "ねぇぇぇぇぇぇ"
+            "English": "NEEEEEEEEEEEE",
+            "Romaji": "NEEEEEEEEEEEE"
           }
         },
         {
@@ -588,6 +892,8 @@
           "translation": {
             "Chinese": "na~ninuneno",
             "Japanese": "五十音講座"
+            "English": "na~ ni nu ne no",
+            "Romaji": "na~ ni nu ne no!"
           }
         },
         {
@@ -596,6 +902,8 @@
           "translation": {
             "Chinese": "x♂p",
             "Japanese": "シンビ"
+            "English": "Shinpi",
+            "Romaji": "Shinpi"
           }
         },
         {
@@ -604,6 +912,8 @@
           "translation": {
             "Chinese": "傻狗笑",
             "Japanese": "笑ってる犬"
+            "English": "*Doggo laugh*",
+            "Romaji": "Doggo laugh"
           }
         },
         {
@@ -612,6 +922,8 @@
           "translation": {
             "Chinese": "削除削除！",
             "Japanese": "デリートを要求する"
+            "English": "Delete delete!",
+            "Romaji": "Sakujo sakujo"
           }
         },
         {
@@ -620,6 +932,8 @@
           "translation": {
             "Chinese": "削除！",
             "Japanese": "デリート！"
+            "English": "Delete delete!",
+            "Romaji": "Sakujo"
           }
         },
         {
@@ -628,6 +942,8 @@
           "translation": {
             "Chinese": "变魔术",
             "Japanese": "マジック"
+            "English": "*Magic trick*",
+            "Romaji": ""
           }
         },
         {
@@ -636,6 +952,8 @@
           "translation": {
             "Chinese": "吵死了 沁粥",
             "Japanese": "うるせぇ！おかころ"
+            "English": "Shut up, Okakoro",
+            "Romaji": "Urusei, Okakoro!"
           }
         },
         {
@@ -644,6 +962,8 @@
           "translation": {
             "Chinese": "大爆炸攻击！",
             "Japanese": "ビックバンアタック"
+            "English": "Big Bang Attack!",
+            "Romaji": ""
           }
         },
         {
@@ -652,6 +972,8 @@
           "translation": {
             "Chinese": "夹脸回外星语",
             "Japanese": "外　星　語"
+            "English": "Alien doggo language",
+            "Romaji": ""
           }
         },
         {
@@ -660,6 +982,8 @@
           "translation": {
             "Chinese": "奶凶狗",
             "Japanese": "吠える犬"
+            "English": "Don't look at me!",
+            "Romaji": "Kochi minaide"
           }
         },
         {
@@ -668,6 +992,8 @@
           "translation": {
             "Chinese": "她 是 谁",
             "Japanese": "あれは誰だ"
+            "English": "Who is she?",
+            "Romaji":""
           }
         },
         {
@@ -676,6 +1002,8 @@
           "translation": {
             "Chinese": "妈妈~",
             "Japanese": "ママー"
+            "English": "MAMA~",
+            "Romaji":""
           }
         },
         {
@@ -684,6 +1012,8 @@
           "translation": {
             "Chinese": "我草",
             "Japanese": "ウォッツオ"
+            "English": "What's up",
+            "Romaji": "Wa tsao"
           }
         },
         {
@@ -692,6 +1022,8 @@
           "translation": {
             "Chinese": "木大木大木大",
             "Japanese": "ムダムダムダ"
+            "English": "Muda muda muda",
+            "Romaji": "Muda muda muda"
           }
         },
         {
@@ -700,6 +1032,8 @@
           "translation": {
             "Chinese": "木大木大木大2",
             "Japanese": "無駄無駄無駄"
+            "English": "Muda muda muda 2",
+            "Romaji": "Muda muda muda 2"
           }
         },
         {
@@ -708,6 +1042,8 @@
           "translation": {
             "Chinese": "混响水开了",
             "Japanese": "沸騰した酸化水素"
+            "English": "boiling water (EQ)",
+            "Romaji": ""
           }
         },
         {
@@ -716,6 +1052,8 @@
           "translation": {
             "Chinese": "胡唱狗歌",
             "Japanese": "歌うフリしてる犬"
+            "English": "Doggo's nonsense song",
+            "Romaji": ""
           }
         },
         {
@@ -724,6 +1062,8 @@
           "translation": {
             "Chinese": "谢谢peko",
             "Japanese": "ありペコ"
+            "English": "Thank you-peko",
+            "Romaji": "Aripeko"
           }
         },
         {
@@ -732,6 +1072,8 @@
           "translation": {
             "Chinese": "闭嘴！沁音",
             "Japanese": "黙れ！ころね"
+            "English": "Shut up Korone",
+            "Romaji": "Damare Korone"
           }
         },
         {
@@ -740,6 +1082,8 @@
           "translation": {
             "Chinese": "高速狗语",
             "Japanese": "ハイスピード詠唱"
+            "English": "High speed doggo language",
+            "Romaji": "???"
           }
         },
         {
@@ -748,6 +1092,8 @@
           "translation": {
             "Chinese": "魔神z",
             "Japanese": "スクランブル"
+            "English": "Mazinger z",
+            "Romaji": "Majinga Z"
           }
         }
       ]

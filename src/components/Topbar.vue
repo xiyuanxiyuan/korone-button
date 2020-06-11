@@ -76,7 +76,7 @@
         data: () => ({
             langs: [
                 {title: "简体中文", src: "zhHans", isready: true},
-                {title: "English(Coming Soon)", src: "en", isready: false},
+                {title: "English", src: "en", isready: true},
                 {title: "日本語(ベータ版)", src: "ja", isready: false}
             ],
         }),

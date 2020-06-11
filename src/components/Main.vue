@@ -94,27 +94,48 @@
         <v-card class="ma-1 pa-0">
           <v-card-title v-if="$i18n.locale=='zhHans'">{{group.translation.Chinese}}</v-card-title>
           <v-card-title v-else-if="$i18n.locale=='ja'">{{group.translation.Japanese}}</v-card-title>
+          <v-card-title v-else-if="$i18n.locale=='en'">{{group.translation.English}}</v-card-title>
           <v-container>
             <v-row no-gutters v-if="$i18n.locale=='zhHans'">
               <v-btn
-                      class="ma-2 pa-1"
+                      class="ma-2 pa-1 mianbao"
                       v-for="voice in group.voicelist"
                       :key="voice.name"
                       raised
                       color="secondary"
+                      height="max-content"
+                      min-height="36px"
                       @click="play(voice)"
-              >{{voice.translation.Chinese}}
+              >
+                <div>{{voice.translation.Chinese}}</div>
               </v-btn>
             </v-row>
             <v-row no-gutters v-else-if="$i18n.locale=='ja'">
               <v-btn
-                      class="ma-1 pa-1"
+                      class="ma-1 pa-1 mianbao"
                       v-for="voice in group.voicelist"
                       :key="voice.name"
                       raised
                       color="secondary"
+                      height="max-content"
+                      min-height="36px"
                       @click="play(voice)"
-              >{{voice.translation.Japanese}}
+              >
+                <div>{{voice.translation.Japanese}}</div>
+              </v-btn>
+            </v-row>
+            <v-row no-gutters v-else-if="$i18n.locale=='en'">
+              <v-btn
+                      class="ma-1 pa-1 mianbao"
+                      v-for="voice in group.voicelist"
+                      :key="voice.name"
+                      raised
+                      color="secondary"
+                      height="max-content"
+                      min-height="36px"
+                      @click="play(voice)"
+              >
+                <div>{{voice.translation.English}}</div>
               </v-btn>
             </v-row>
           </v-container>
@@ -304,5 +325,41 @@
 
   #volumeM {
     z-index: 999;
+  }
+
+  .mianbao {
+    display: inline-block;
+    max-width: 100%;
+    word-wrap: break-word !important;
+    word-break: break-all !important;
+    white-space: normal !important;
+    text-transform: none;
+  }
+
+  .mianbao div {
+    display: inline-block;
+    transition: 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .mianbao div:after {
+    content: '🥐';
+    position: absolute;
+    right: -20px;
+    opacity: 0;
+    transition: 0.5s cubic-bezier(0.25, 0.8, 0.5, 1);
+  }
+
+  .mianbao:hover div {
+    padding-left: 0;
+    padding-right: 24px;
+  }
+
+  .mianbao:hover div:after {
+    opacity: 1;
+    right: 0;
+    text-align: center;
   }
 </style>
