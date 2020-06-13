@@ -293,7 +293,8 @@
           "path": "2.语气拟声/鸭子叫.mp3",
           "translation": {
             "Chinese": "鸭子叫",
-            "English": "quack quack"
+            "English": "quack quack",
+            "Japanese": "ガアガア"
           }
         }
       ]
@@ -571,7 +572,7 @@
           "path": "6.狗子教你学英语/Exposito.mp3",
           "translation": {
             "Chinese": "Exposito",
-            "Japanese": "",
+            "Japanese": "Exposito",
             "English": "Exposito",
             "Romaji": "Exposito"
           }
@@ -580,8 +581,8 @@
           "name": "fuckyou",
           "path": "6.狗子教你学英语/fuckyou.mp3",
           "translation": {
-            "Chinese": "fuckyou",
-            "Japanese": "",
+            "Chinese": "fuck you",
+            "Japanese": "fuck you",
             "English": "fuck you",
             "Romaji": "fuck you"
           }
@@ -591,7 +592,7 @@
           "path": "6.狗子教你学英语/nonono.mp3",
           "translation": {
             "Chinese": "nonono",
-            "Japanese": "",
+            "Japanese": "no no no",
             "English": "no no no no no",
             "Romaji": "no no no no no"
           }
@@ -600,8 +601,8 @@
           "name": "thankyoubeybey~",
           "path": "6.狗子教你学英语/thankyoubyevye~.mp3",
           "translation": {
-            "Chinese": "thankyoubyebye~",
-            "Japanese": "",
+            "Chinese": "Thank you, bye bye~~",
+            "Japanese": "Thank you, bye bye~",
             "English": "Thank you, bye bye~",
             "Romaji": ""
           }
@@ -611,7 +612,7 @@
           "path": "6.狗子教你学英语/what the fxxk.mp3",
           "translation": {
             "Chinese": "what the fxxk",
-            "Japanese": "",
+            "Japanese": "what the fxxk",
             "English": "What the FA?",
             "Romaji": ""
           }
@@ -621,7 +622,7 @@
           "path": "6.狗子教你学英语/wow.mp3",
           "translation": {
             "Chinese": "wow",
-            "Japanese": "",
+            "Japanese": "wow",
             "English": "WOW",
             "Romaji": ""
           }
@@ -641,7 +642,8 @@
           "path": "6.狗子教你学英语/I am crazy dog.mp3",
           "translation": {
             "Chinese": "I am crazy dog",
-            "English": "I am crazy dog"
+            "English": "I am crazy dog",
+            "Japanese": "I am crazy dog"
           }
         },
         {
@@ -649,7 +651,8 @@
           "path": "6.狗子教你学英语/I am crazy.mp3",
           "translation": {
             "Chinese": "I am crazy",
-            "English": "I am crazy"
+            "English": "I am crazy",
+            "Japanese": "I am crazy"
           }
         },
         {
@@ -657,7 +660,8 @@
           "path": "6.狗子教你学英语/I am korone inugami.mp3",
           "translation": {
             "Chinese": "I am korone inugami",
-            "English": "I am korone inugami"
+            "English": "I am korone inugami",
+            "Japanese": "I am korone inugami"
           }
         },
         {
@@ -665,7 +669,8 @@
           "path": "6.狗子教你学英语/I am not crazy.mp3",
           "translation": {
             "Chinese": "I am not crazy",
-            "English": "I am not crazy"
+            "English": "I am not crazy",
+            "Japanese": "I am not crazy"
           }
         },
         {
@@ -673,7 +678,8 @@
           "path": "6.狗子教你学英语/I love u.mp3",
           "translation": {
             "Chinese": "I love u",
-            "English": "I love u"
+            "English": "I love u",
+            "Japanese": "I love u"
           }
         },
         {
@@ -681,7 +687,8 @@
           "path": "6.狗子教你学英语/She sell sea shell by the sea shore.mp3",
           "translation": {
             "Chinese": "She sell sea shell by the sea shore",
-            "English": "She sell sea shell by the sea shore"
+            "English": "She sell sea shell by the sea shore",
+            "Japanese": "She sell sea shell by the sea shore"
           }
         },
         {
@@ -689,7 +696,8 @@
           "path": "6.狗子教你学英语/Xpotato.mp3",
           "translation": {
             "Chinese": "Xpotato",
-            "English": "Xpotato"
+            "English": "Xpotato",
+            "Japanese": "Xpotato"
           }
         },
         {
@@ -697,7 +705,8 @@
           "path": "6.狗子教你学英语/as you fish.mp3",
           "translation": {
             "Chinese": "as you fish",
-            "English": "as you fish"
+            "English": "as you fish",
+            "Japanese": "as you fish"
           }
         },
         {
@@ -705,7 +714,8 @@
           "path": "6.狗子教你学英语/good evening.mp3",
           "translation": {
             "Chinese": "good evening",
-            "English": "good evening"
+            "English": "good evening",
+            "Japanese": "good evening"
           }
         },
         {
@@ -713,7 +723,8 @@
           "path": "6.狗子教你学英语/please finger.mp3",
           "translation": {
             "Chinese": "Please finger",
-            "English": "Please finger"
+            "English": "Please finger",
+            "Japanese": "Please finger"
           }
         },
         {
@@ -721,7 +732,8 @@
           "path": "6.狗子教你学英语/shut up.mp3",
           "translation": {
             "Chinese": "Shut up",
-            "English": "Shut up"
+            "English": "Shut up",
+            "Japanese": "Shut up"
           }
         },
         {
@@ -729,7 +741,8 @@
           "path": "6.狗子教你学英语/understandi.mp3",
           "translation": {
             "Chinese": "Understandi",
-            "English": "Understandi"
+            "English": "Understandi",
+            "Japanese": "Understandi"
           }
         },
         {
@@ -737,7 +750,8 @@
           "path": "6.狗子教你学英语/what.mp3",
           "translation": {
             "Chinese": "What",
-            "English": "What"
+            "English": "What",
+            "Japanese": "What"
           }
         },
         {
@@ -745,7 +759,8 @@
           "path": "6.狗子教你学英语/yes my dog.mp3",
           "translation": {
             "Chinese": "Yes my dog",
-            "English": "Yes my dog"
+            "English": "Yes my dog",
+            "Japanese": "Yes my dog"
           }
         },
         {
@@ -753,7 +768,8 @@
           "path": "6.狗子教你学英语/みんなShut up.mp3",
           "translation": {
             "Chinese": "大家 Shut up",
-            "English": "All shut up"
+            "English": "All shut up",
+            "Japanese": "皆 shut up"
           }
         },
         {
@@ -761,7 +777,8 @@
           "path": "6.狗子教你学英语/Hey guys.mp3",
           "translation": {
             "Chinese": "Hey guys",
-            "English": "Hey guys"
+            "English": "Hey guys",
+            "Japanese": "Hey guys"
           }
         },
         {
@@ -769,7 +786,8 @@
           "path": "6.狗子教你学英语/I'm duck.mp3",
           "translation": {
             "Chinese": "I'm duck",
-            "English": "I'm duck"
+            "English": "I'm duck",
+            "Japanese": "I'm duck"
           }
         },
         {
@@ -777,7 +795,8 @@
           "path": "6.狗子教你学英语/Noooooo.mp3",
           "translation": {
             "Chinese": "Noooooo",
-            "English": "Noooooo"
+            "English": "Noooooo",
+            "Japanese": "Noooooo"
           }
         },
         {
@@ -785,7 +804,8 @@
           "path": "6.狗子教你学英语/hey guys 10s version.mp3",
           "translation": {
             "Chinese": "hey guys 10秒版本",
-            "English": "hey guys 10s version"
+            "English": "hey guys 10s version",
+            "Japanese": "hey guys 10秒バージョン"
           }
         },
         {
@@ -793,7 +813,8 @@
           "path": "6.狗子教你学英语/thank u very much.mp3",
           "translation": {
             "Chinese": "thank u very much",
-            "English": "thank u very much"
+            "English": "thank u very much",
+            "Japanese": "thank u very much"
           }
         }
       ]
