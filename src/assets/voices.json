@@ -296,6 +296,51 @@
             "English": "quack quack",
             "Japanese": "ガアガア"
           }
+        },
+        {
+          "name": "哇吼",
+          "path": "2.语气拟声/哇吼.mp3",
+          "translation": {
+            "Chinese": "哇吼",
+            "Japanese": "わっほー",
+            "English": "wow ho~"
+          }
+        },
+        {
+          "name": "啾啾啾",
+          "path": "2.语气拟声/啾啾啾.mp3",
+          "translation": {
+            "Chinese": "啾啾啾",
+            "Japanese": "チューチューチュー",
+            "English": "*rat noises*"
+          }
+        },
+        {
+          "name": "啾啾啾啾啾啾",
+          "path": "2.语气拟声/啾啾啾啾啾啾.mp3",
+          "translation": {
+            "Chinese": "啾啾啾啾啾啾",
+            "Japanese": "チューチューチューチューチューチュー",
+            "English": "*longer rat noises*"
+          }
+        },
+        {
+          "name": "喂",
+          "path": "2.语气拟声/喂.mp3",
+          "translation": {
+            "Chinese": "喂",
+            "Japanese": "ウェイ",
+            "English": "Hey"
+          }
+        },
+        {
+          "name": "喂喂喂",
+          "path": "2.语气拟声/喂喂喂.mp3",
+          "translation": {
+            "Chinese": "喂喂喂",
+            "Japanese": "ウェイウェイウェイ",
+            "English": "Hey hey hey"
+          }
         }
       ]
     },
@@ -815,6 +860,78 @@
             "Chinese": "thank u very much",
             "English": "thank u very much",
             "Japanese": "thank u very much"
+          }
+        },
+        {
+          "name": "I'm rat",
+          "path": "6.狗子教你学英语/I'm rat.mp3",
+          "translation": {
+            "Chinese": "I'm rat",
+            "Japanese": "I'm rat",
+            "English": "I'm rat"
+          }
+        },
+        {
+          "name": "NO WOMAN NO",
+          "path": "6.狗子教你学英语/NO WOMAN NO.mp3",
+          "translation": {
+            "Chinese": "NO WOMAN NO",
+            "Japanese": "NO WOMAN NO",
+            "English": "NO WOMAN NO"
+          }
+        },
+        {
+          "name": "hello hello",
+          "path": "6.狗子教你学英语/hello hello.mp3",
+          "translation": {
+            "Chinese": "hello hello",
+            "Japanese": "hello hello",
+            "English": "hello hello"
+          }
+        },
+        {
+          "name": "hello",
+          "path": "6.狗子教你学英语/hello.mp3",
+          "translation": {
+            "Chinese": "hello",
+            "Japanese": "hello",
+            "English": "hello"
+          }
+        },
+        {
+          "name": "imagination",
+          "path": "6.狗子教你学英语/imagination.mp3",
+          "translation": {
+            "Chinese": "imagination",
+            "Japanese": "imagination",
+            "English": "imagination"
+          }
+        },
+        {
+          "name": "squeak squeak",
+          "path": "6.狗子教你学英语/squeak squeak.mp3",
+          "translation": {
+            "Chinese": "squeak squeak",
+            "Japanese": "squeak squeak",
+            "English": "squeak squeak"
+          }
+        },
+        {
+          "name": "wowfofofofo",
+          "path": "6.狗子教你学英语/wowfofofofo.mp3",
+          "translation": {
+            "Chinese": "wowfofofofo",
+            "Japanese": "wowfofofofo",
+            "English": "wowfofofofo"
+          }
+        },
+        {
+          "name": "wowowowowow",
+          "path": "6.狗子教你学英语/wowowowowow.mp3",
+          "translation": {
+            "Chinese": "wowowowowow",
+            "Japanese": "wowowowowow",
+            "English": "wowowowowow"
           }
         }
       ]

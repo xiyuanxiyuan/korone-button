@@ -51,12 +51,13 @@ files.forEach(function (item) {
         "path": item,
         "translation": {
             "Chinese": voice_name,
+            "Japanese": voice_name,
             "English": voice_name
         }
-    })
+    });
 });
 
-out_json = JSON.stringify(voices, null, 2);
+out_json = JSON.stringify(voices.groups[8], null, 2);
 
 //fs.writeFileSync('./temp.json', out_json);
 
