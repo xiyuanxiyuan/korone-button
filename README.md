@@ -32,7 +32,7 @@
 * Fork这个项目  
 * 部署node.js，在命令行中安装Vue-cli `npm install -g @vue/cli`  
 * cd到项目文件夹，运行 `npm install` 来安装项目中用到的依赖
-* 运行`npm run dev` 即可在http://127.0.0.1:8080/ 中访问站点
+* 运行`npm run serve` 即可在http://127.0.0.1:8080/ 中访问站点
 * 用VSCode或其他工具进行修改后发送一个Pull request请求即可
 
 所有的音源在/src/assets/voices.json中有定义
