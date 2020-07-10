@@ -206,6 +206,7 @@
       repeatmode: false,
       arrysize: 0,
       volume: 100,
+      prefix: 'https://fubuki.lonelyion.com/'
     }),
     created() {
       //window.console.log(this.voices); //装载语音包path
@@ -226,7 +227,7 @@
         }
         let audio = new Audio();
         audio.preload = true;
-        audio.src = "voices/" + item.path;
+        audio.src = this.prefix + "voices/" + item.path;
         this.voice = item;
         audio.volume = this.volume / 100;
         audio.play();
@@ -234,7 +235,7 @@
       },
       playOnly(item) {
         let audio = new Audio();
-        audio.src = "voices/" + item.path;
+        audio.src = this.prefix + "voices/" + item.path;
         audio.preload = true;
         this.voice = item;
         audio.play();
@@ -250,7 +251,7 @@
         let repeat = this.repeatmode;
         audio.preload = true;
         audio.loop = false;
-        audio.src = "voices/" + arry[i].path;
+        audio.src = this.prefix + "voices/" + arry[i].path;
         audio.volume = this.volume / 100;
         audio.play();
         audio.addEventListener('ended', playEndedHandler, false);
@@ -265,7 +266,7 @@
           } else {
             if (repeat == true) {//不要停不下来啊
               i = 0;
-              audio.src = "voices/" + arry[i].path;
+              audio.src = this.prefix + "voices/" + arry[i].path;
               audio.play();
             }
           }
@@ -281,11 +282,9 @@
       submit_statistics(item) {
         if (process.client && process.env.NODE_ENV === 'production') {
           // eslint-disable-next-line no-undef
-          ga('send', {
-            hitType: 'event',
-            eventCategory: 'Audios',
-            eventAction: 'play',
-            eventLabel: item.name
+          gtag('event', 'play', {
+            'event_category': 'Audios',
+            'event_label': item.name
           });
         }
       }
