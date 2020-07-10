@@ -206,7 +206,7 @@
       repeatmode: false,
       arrysize: 0,
       volume: 100,
-      prefix: 'https://fubuki.lonelyion.com/'
+      prefix: 'https://korone.lonelyion.com/'
     }),
     created() {
       //window.console.log(this.voices); //装载语音包path
