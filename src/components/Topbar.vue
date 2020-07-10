@@ -1,10 +1,10 @@
 <template>
   <v-app-bar
-          :collapse-on-scroll="$vuetify.breakpoint.smAndDown"
-          fixed
-          :color="night"
-          dark
-          :elevate-on-scroll="$vuetify.breakpoint.mdAndUp"
+    :collapse-on-scroll="$vuetify.breakpoint.smAndDown"
+    fixed
+    :color="night"
+    dark
+    :elevate-on-scroll="$vuetify.breakpoint.mdAndUp"
   >
     <v-menu transition="slide-y-transition" bottom offset-y>
       <template v-slot:activator="{on:menu}">
@@ -72,47 +72,47 @@
 </template>
 
 <script>
-    export default {
-        data: () => ({
-            langs: [
-                {title: "简体中文", src: "zhHans", isready: true},
-                {title: "English", src: "en", isready: true},
-                {title: "日本語", src: "ja", isready: true}
-            ],
-        }),
-        methods: {
-            ChangeLang(e) {
-                this.$i18n.locale = e;
-                this.$cookies.set("Lang", e);
-            },
-            DarkMode() {
-                this.$store.commit("change_dark_mode");
-                this.$vuetify.theme.dark = this.$store.state.dark_mode;
-            },
-            See(e) {
-                window.open(e, '_blank');
-            }
+  export default {
+    data: () => ({
+      langs: [
+        {title: "简体中文", src: "zhHans", isready: true},
+        {title: "English", src: "en", isready: true},
+        {title: "日本語", src: "ja", isready: true}
+      ],
+    }),
+    methods: {
+      ChangeLang(e) {
+        this.$i18n.locale = e;
+        this.$cookies.set("Lang", e);
+      },
+      DarkMode() {
+        this.$store.commit("change_dark_mode");
+        this.$vuetify.theme.dark = this.$store.state.dark_mode;
+      },
+      See(e) {
+        window.open(e, '_blank');
+      }
+    },
+    computed: {
+      darkmodeicon: {
+        get: function () {
+          return this.$store.state.dark_icon;
         },
-        computed: {
-            darkmodeicon: {
-                get: function () {
-                    return this.$store.state.dark_icon;
-                },
 
-            },
-            night: {
-                get: function () {
-                    if (this.$vuetify.theme.dark) {
-                        return "grey darken-4";
-                    } else {
-                        return "primary"
-                    }
-                },
+      },
+      night: {
+        get: function () {
+          if (this.$vuetify.theme.dark) {
+            return "grey darken-4";
+          } else {
+            return "primary"
+          }
+        },
 
-            },
+      },
 
-        }
     }
+  }
 </script>
 
 <style>

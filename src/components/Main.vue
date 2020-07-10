@@ -4,52 +4,52 @@
     <v-menu id="volumeM" open-on-hover offset-x>
       <template v-slot:activator="{ on }">
         <v-btn
-                id="volumestyle"
-                color="secondary"
-                dark
-                fixed
-                bottom
-                left
-                fab
-                v-on="on"
+          id="volumestyle"
+          color="secondary"
+          dark
+          fixed
+          bottom
+          left
+          fab
+          v-on="on"
         >
           <v-icon>mdi-volume-high</v-icon>
         </v-btn>
       </template>
       <v-card
-              min-height="100"
-              min-width="250"
-              flat
+        min-height="100"
+        min-width="250"
+        flat
       >
         <v-slider
-                class="pl-5 pr-5 pt-8 mb-0"
-                v-model="volume"
-                :label="this.$t('ui.volume')"
-                thumb-label
-                max=100
-                min=0
-                dense
-                prepend-icon="mdi-volume-high"
+          class="pl-5 pr-5 pt-8 mb-0"
+          v-model="volume"
+          :label="this.$t('ui.volume')"
+          thumb-label
+          max=100
+          min=0
+          dense
+          prepend-icon="mdi-volume-high"
         ></v-slider>
       </v-card>
     </v-menu>
     <v-fab-transition>
       <v-btn
-              class="mb-12 mr-12"
-              v-show="orderplaymode"
-              color="primary"
-              dark
-              fixed
-              bottom
-              right
-              fab
-              @click="orderdialog=true"
+        class="mb-12 mr-12"
+        v-show="orderplaymode"
+        color="primary"
+        dark
+        fixed
+        bottom
+        right
+        fab
+        @click="orderdialog=true"
       >
         <v-badge
-                color="secondary"
-                :content="arrysize"
-                :value="arrysize"
-                overlap
+          color="secondary"
+          :content="arrysize"
+          :value="arrysize"
+          overlap
         >
           <v-icon>mdi-reorder-horizontal</v-icon>
         </v-badge>
@@ -98,42 +98,42 @@
           <v-container>
             <v-row no-gutters v-if="$i18n.locale=='zhHans'">
               <v-btn
-                      class="ma-2 pa-1 mianbao"
-                      v-for="voice in group.voicelist"
-                      :key="voice.name"
-                      raised
-                      color="secondary"
-                      height="max-content"
-                      min-height="36px"
-                      @click="play(voice)"
+                class="ma-2 pa-1 mianbao"
+                v-for="voice in group.voicelist"
+                :key="voice.name"
+                raised
+                color="secondary"
+                height="max-content"
+                min-height="36px"
+                @click="play(voice)"
               >
                 <div>{{voice.translation.Chinese}}</div>
               </v-btn>
             </v-row>
             <v-row no-gutters v-else-if="$i18n.locale=='ja'">
               <v-btn
-                      class="ma-1 pa-1 mianbao"
-                      v-for="voice in group.voicelist"
-                      :key="voice.name"
-                      raised
-                      color="secondary"
-                      height="max-content"
-                      min-height="36px"
-                      @click="play(voice)"
+                class="ma-1 pa-1 mianbao"
+                v-for="voice in group.voicelist"
+                :key="voice.name"
+                raised
+                color="secondary"
+                height="max-content"
+                min-height="36px"
+                @click="play(voice)"
               >
                 <div>{{voice.translation.Japanese}}</div>
               </v-btn>
             </v-row>
             <v-row no-gutters v-else-if="$i18n.locale=='en'">
               <v-btn
-                      class="ma-1 pa-1 mianbao"
-                      v-for="voice in group.voicelist"
-                      :key="voice.name"
-                      raised
-                      color="secondary"
-                      height="max-content"
-                      min-height="36px"
-                      @click="play(voice)"
+                class="ma-1 pa-1 mianbao"
+                v-for="voice in group.voicelist"
+                :key="voice.name"
+                raised
+                color="secondary"
+                height="max-content"
+                min-height="36px"
+                @click="play(voice)"
               >
                 <div>{{voice.translation.English}}</div>
               </v-btn>
@@ -222,96 +222,95 @@
 </template>
 
 <script>
-    import voicelist from "../assets/voices.json";
+  import voicelist from "../assets/voices.json";
 
-    var audio = new Audio();
-    var i = 0;
-    export default {
-        data: () => ({
-            voices: voicelist.groups,
-            orderplaymode: false,
-            orderdialog: false,
-            orderlist: [],
-            helpdialog: false,
-            repeatmode: false,
-            arrysize: 0,
-            volume: 100,
-        }),
-        created() {
-            //window.console.log(this.voices); //装载语音包path
-        },
-        methods: {
-            play(item) {
-                if (this.orderplaymode) {
-                    //判断序列播放
-                    this.orderlist.push(item);
-                    //window.console.log(this.orderlist);
-                }
-                let audio = new Audio();
-                audio.preload = true;
-                audio.src = "voices/" + item.path;
-                this.voice = item;
-                audio.volume = this.volume / 100;
-                audio.play();
-            },
-            playOnly(item) {
-                let audio = new Audio();
-                audio.src = "voices/" + item.path;
-                audio.preload = true;
-                this.voice = item;
-                audio.play();
-            },
-            deletelist(i) {//删除序列中的一个值
-                this.orderlist.splice(i, 1);
-            },
-            orderplay() {
+  var audio = new Audio();
+  var i = 0;
+  export default {
+    data: () => ({
+      voices: voicelist.groups,
+      orderplaymode: false,
+      orderdialog: false,
+      orderlist: [],
+      helpdialog: false,
+      repeatmode: false,
+      arrysize: 0,
+      volume: 100,
+    }),
+    created() {
+      //window.console.log(this.voices); //装载语音包path
+    },
+    methods: {
+      play(item) {
+        if (this.orderplaymode) {
+          //判断序列播放
+          this.orderlist.push(item);
+          //window.console.log(this.orderlist);
+        }
+        let audio = new Audio();
+        audio.preload = true;
+        audio.src = "voices/" + item.path;
+        this.voice = item;
+        audio.volume = this.volume / 100;
+        audio.play();
+      },
+      playOnly(item) {
+        let audio = new Audio();
+        audio.src = "voices/" + item.path;
+        audio.preload = true;
+        this.voice = item;
+        audio.play();
+      },
+      deletelist(i) {//删除序列中的一个值
+        this.orderlist.splice(i, 1);
+      },
+      orderplay() {
+        i = 0;
+        audio = new Audio();
+        let arry = this.orderlist;
+        let repeat = this.repeatmode;
+        audio.preload = true;
+        audio.loop = false;
+        audio.src = "voices/" + arry[i].path;
+        audio.volume = this.volume / 100;
+        audio.play();
+        audio.addEventListener('ended', playEndedHandler, false);
 
-                i = 0;
-                audio = new Audio();
-                let arry = this.orderlist;
-                let repeat = this.repeatmode;
-                audio.preload = true;
-                audio.loop = false;
-                audio.src = "voices/" + arry[i].path;
-                audio.volume = this.volume / 100;
-                audio.play();
-                audio.addEventListener('ended', playEndedHandler, false);
+        function playEndedHandler() {//序列播放实现
+          i++;
+          if (i < arry.length) {
+            audio.src = "voices/" + arry[i].path;
+            //window.console.log(i);
+            audio.play();
 
-                function playEndedHandler() {//序列播放实现
-                    i++;
-                    if (i < arry.length) {
-                        audio.src = "voices/" + arry[i].path;
-                        //window.console.log(i);
-                        audio.play();
-
-                    } else {
-                        if (repeat == true) {//不要停不下来啊
-                            i = 0;
-                            audio.src = "voices/" + arry[i].path;
-                            audio.play();
-                        }
-                    }
-                }
-            },
-            resetorder() {
-                this.orderlist = [];
-            },
-            stopplay() {
-                audio.pause();
-                i = 0;
+          } else {
+            if (repeat == true) {//不要停不下来啊
+              i = 0;
+              audio.src = "voices/" + arry[i].path;
+              audio.play();
             }
-        },
-        watch: {
-            orderplaymode: function () {
-                if (this.orderplaymode) {
-                    this.helpdialog = true;
-                }
-            },
-            orderlist: function () {
-                this.arrysize = this.orderlist.length;
-            }
-        },
-    };
+          }
+        }
+      },
+      resetorder() {
+        this.orderlist = [];
+      },
+      stopplay() {
+        audio.pause();
+        i = 0;
+      }
+    },
+    watch: {
+      orderplaymode: function () {
+        if (this.orderplaymode) {
+          this.helpdialog = true;
+        }
+      },
+      orderlist: function () {
+        this.arrysize = this.orderlist.length;
+      }
+    },
+  };
 </script>
 
 <style>
