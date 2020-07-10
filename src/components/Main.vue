@@ -92,11 +92,9 @@
     <v-row v-for="group in voices" :key="group.name">
       <v-col cols="12" class="ma-0 pa-0">
         <v-card class="ma-1 pa-0">
-          <v-card-title v-if="$i18n.locale=='zhHans'">{{group.translation.Chinese}}</v-card-title>
-          <v-card-title v-else-if="$i18n.locale=='ja'">{{group.translation.Japanese}}</v-card-title>
-          <v-card-title v-else-if="$i18n.locale=='en'">{{group.translation.English}}</v-card-title>
+          <v-card-title>{{group.translation[locale_convert($i18n.locale)]}}</v-card-title>
           <v-container>
-            <v-row no-gutters v-if="$i18n.locale=='zhHans'">
+            <v-row no-gutters>
               <v-btn
                 class="ma-2 pa-1 mianbao"
                 v-for="voice in group.voicelist"
@@ -107,35 +105,7 @@
                 min-height="36px"
                 @click="play(voice)"
               >
-                <div>{{voice.translation.Chinese}}</div>
-              </v-btn>
-            </v-row>
-            <v-row no-gutters v-else-if="$i18n.locale=='ja'">
-              <v-btn
-                class="ma-1 pa-1 mianbao"
-                v-for="voice in group.voicelist"
-                :key="voice.name"
-                raised
-                color="secondary"
-                height="max-content"
-                min-height="36px"
-                @click="play(voice)"
-              >
-                <div>{{voice.translation.Japanese}}</div>
-              </v-btn>
-            </v-row>
-            <v-row no-gutters v-else-if="$i18n.locale=='en'">
-              <v-btn
-                class="ma-1 pa-1 mianbao"
-                v-for="voice in group.voicelist"
-                :key="voice.name"
-                raised
-                color="secondary"
-                height="max-content"
-                min-height="36px"
-                @click="play(voice)"
-              >
-                <div>{{voice.translation.English}}</div>
+                <div>{{voice.translation[locale_convert($i18n.locale)]}}</div>
               </v-btn>
             </v-row>
           </v-container>
@@ -241,6 +211,13 @@
       //window.console.log(this.voices); //装载语音包path
     },
     methods: {
+      locale_convert(locale) {
+        switch (locale) {
+          case 'ja': return 'Japanese';
+          case 'en': return 'English';
+          default: return 'Chinese';
+        }
+      },
       play(item) {
         if (this.orderplaymode) {
           //判断序列播放
@@ -253,6 +230,7 @@
         this.voice = item;
         audio.volume = this.volume / 100;
         audio.play();
+        this.submit_statistics(item);
       },
       playOnly(item) {
         let audio = new Audio();
@@ -260,6 +238,7 @@
         audio.preload = true;
         this.voice = item;
         audio.play();
+        this.submit_statistics(item);
       },
       deletelist(i) {//删除序列中的一个值
         this.orderlist.splice(i, 1);
@@ -298,6 +277,17 @@
       stopplay() {
         audio.pause();
         i = 0;
+      },
+      submit_statistics(item) {
+        if (process.client && process.env.NODE_ENV === 'production') {
+          // eslint-disable-next-line no-undef
+          ga('send', {
+            hitType: 'event',
+            eventCategory: 'Audios',
+            eventAction: 'play',
+            eventLabel: item.name
+          });
+        }
       }
     },
     watch: {
