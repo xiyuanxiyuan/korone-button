@@ -232,9 +232,9 @@
           "name": "水开了1",
           "path": "2.语气拟声/水开了1.mp3",
           "translation": {
-            "Chinese": "水开了1",
-            "Japanese": "沸騰した水",
-            "English": "*Boiling Water 1*",
+            "Chinese": "拧水龙头的模仿1",
+            "Japanese": "蛇口のモノマネ1",
+            "English": "*Opening Water Tap 1*",
             "Romaji": ""
           }
         },
@@ -242,9 +242,9 @@
           "name": "水开了2",
           "path": "2.语气拟声/水开了2.mp3",
           "translation": {
-            "Chinese": "水开了2",
-            "Japanese": "沸騰したH₂О",
-            "English": "*Boiling Water 2*",
+            "Chinese": "拧水龙头的模仿2",
+            "Japanese": "蛇口のモノマネ2",
+            "English": "*Opening Water Tap 2*",
             "Romaji": ""
           }
         },
@@ -252,9 +252,19 @@
           "name": "水开了3",
           "path": "2.语气拟声/水开了3.mp3",
           "translation": {
-            "Chinese": "水开了3",
-            "Japanese": "沸騰したウォーター",
-            "English": "*Boiling Water 3*",
+            "Chinese": "拧水龙头的模仿3",
+            "Japanese": "蛇口のモノマネ3",
+            "English": "*Opening Water Tap 3*",
+            "Romaji": ""
+          }
+        },
+        {
+          "name": "混响水开了",
+          "path": "2.语气拟声/混响水开了.mp3",
+          "translation": {
+            "Chinese": "拧水龙头的模仿4",
+            "Japanese": "蛇口のモノマネ4",
+            "English": "*Opening Water Tap 4*",
             "Romaji": ""
           }
         },
@@ -1287,16 +1297,6 @@
             "Japanese": "無駄無駄無駄",
             "English": "Muda muda muda 2",
             "Romaji": "Muda muda muda 2"
-          }
-        },
-        {
-          "name": "混响水开了",
-          "path": "8.其他/混响水开了.mp3",
-          "translation": {
-            "Chinese": "混响水开了",
-            "Japanese": "沸騰した酸化水素",
-            "English": "boiling water (EQ)",
-            "Romaji": ""
           }
         },
         {
